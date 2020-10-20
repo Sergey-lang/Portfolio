@@ -1,0 +1,15 @@
+.mainBlock {
+    background: chocolate;
+    height: 100vh;
+}
+
+.greeting {
+    width: 300px;
+    background: crimson;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background: darkkhaki;
+}
