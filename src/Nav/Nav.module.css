@@ -1,6 +1,9 @@
-.nav {
-    border: 1px solid red;
+.nav
+{
     display: flex;
     justify-content: space-evenly;
+
     width: 300px;
+
+    border: 1px solid red;
 }

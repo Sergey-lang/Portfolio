@@ -10,10 +10,10 @@ export function MyWorks() {
                 <h2 className={s.title}>My works</h2>
                 <div className={s.works}>
                     <Work projectName={'First Project'}
-                        description={'erngrrt rtg rtg rtg rthrthrhrt rth rth rthrh  yhythrthrthtyjtjjttgergergerg'}
+                        description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque cupiditate esse nulla optio vel? Aspernatur autem dolores labore modi.'}
                     />
                     <Work projectName={'Second Project'}
-                        description={'erngrrt rtg rtg rtg rthrthrhrt rth rth rthrh  yhythrthrthtyjtjjttergergergergergegerg'}
+                        description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor ducimus eaque esse facere inventore nam nobis nostrum officia omnis quae quidem sint vel vero vitae voluptatibus!'}
                     />
                 </div>
             </div>

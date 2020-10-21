@@ -1,7 +1,18 @@
-.header {
-    height: 80px;
-    background: cadetblue;
+.header
+{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
+
+    height: 80px;
+
+    background: rgb(74, 76, 76);
+}
+
+@media screen and (max-width: 760px)
+{
+    .header
+    {
+        justify-content: center;
+    }
 }

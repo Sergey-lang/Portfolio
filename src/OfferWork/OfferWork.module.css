@@ -1,20 +1,27 @@
-.offerBlock {
+.offerBlock
+{
     height: auto;
-    background: rgb(160, 170, 11);
     padding: 75px 0;
+
+    background: rgb(74, 76, 76);
 }
 
-.offerContainer {
+.offerContainer
+{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.title {
-    background-color: forestgreen;
+.title
+{
+    text-align: center;
+
+    background-color: #e72020;
 }
 
-.hireButton {
+.hireButton
+{
     width: 110px;
     height: 40px;
 }

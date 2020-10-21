@@ -1,24 +1,40 @@
-.worksBlock {
+.worksBlock
+{
     height: auto;
-    background: rgb(98, 31, 153);
     padding: 75px 0;
+
+    background: rgb(114, 117, 117);
 }
 
-.worksContainer {
+.worksContainer
+{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.title {
-    background-color: forestgreen;
+.title
+{
+    background-color: #e72020;
 }
 
-.works {
-    border: 1px solid;
-    width: 100%;
+.works
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    width: 100%;
+
+    border: 1px solid;
 }
 
+@media screen and (max-width: 1005px)
+{
+    .works
+    {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
