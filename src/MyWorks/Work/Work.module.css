@@ -1,49 +1,37 @@
-.workBlock
-{
-    display: flex;
-    flex-direction: column;
+.workBlock {
+	display: flex;
+	flex-direction: column;
 
-    max-width: 400px;
-    padding-bottom: 25px;
+	max-width: 400px;
+	padding-bottom: 25px;
 
-    background-color: #c3c3c3;
+	background-color: #c3c3c3;
 }
 
-.projectImg
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.projectImg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-    width: 100%;
-    height: 270px;
+	width: 100%;
+	height: 270px;
 }
 
-.watchButton
-{
-    width: 110px;
-    height: 40px;
-}
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 
-.description
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    padding: 5px 20px;
+	padding: 5px 20px;
 }
 
 .description h3,
-p
-{
-    margin: 0;
+p {
+	margin: 0;
 }
 
-@media screen and (max-width: 1005px)
-{
-    .workBlock
-    {
-        margin-bottom: 10px;
-    }
+@media screen and (max-width: 1005px) {
+	.workBlock {
+		margin-bottom: 10px;
+	}
 }

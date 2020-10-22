@@ -1,27 +1,18 @@
-.offerBlock
-{
-    height: auto;
-    padding: 75px 0;
+.offerBlock {
+	height: auto;
+	padding: 75px 0;
 
-    background: rgb(74, 76, 76);
+	background: rgb(74, 76, 76);
 }
 
-.offerContainer
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.offerContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
-.title
-{
-    text-align: center;
+.title {
+	text-align: center;
 
-    background-color: #e72020;
-}
-
-.hireButton
-{
-    width: 110px;
-    height: 40px;
+	background-color: #e72020;
 }

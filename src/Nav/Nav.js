@@ -1,14 +1,13 @@
-import React from 'react';
+import React from 'react'
 import s from './Nav.module.css'
 
 export function Nav() {
-    return (
-        <div className={s.nav}>
-            <a href=''>Main</a>  
-            <a href=''>Skils</a>  
-            <a href=''>Projects</a>  
-            <a href=''>Contacts</a>  
-        </div>
-    );
+	return (
+		<div className={s.nav}>
+			<a href="">Main</a>
+			<a href="">Skils</a>
+			<a href="">Projects</a>
+			<a href="">Contacts</a>
+		</div>
+	)
 }
-

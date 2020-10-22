@@ -1,9 +1,8 @@
-.nav
-{
-    display: flex;
-    justify-content: space-evenly;
+.nav {
+	display: flex;
+	justify-content: space-evenly;
 
-    width: 300px;
+	width: 300px;
 
-    border: 1px solid red;
+	border: 1px solid red;
 }

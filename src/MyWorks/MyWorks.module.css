@@ -1,40 +1,37 @@
-.worksBlock
-{
-    height: auto;
-    padding: 75px 0;
+.worksBlock {
+	height: auto;
+	padding: 75px 0;
 
-    background: rgb(114, 117, 117);
+	background: rgb(114, 117, 117);
 }
 
-.worksContainer
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.worksContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
-.title
-{
-    background-color: #e72020;
+.title {
+	background-color: #e72020;
 }
 
-.works
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.works {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
-    width: 100%;
+	width: 100%;
 
-    border: 1px solid;
+	border: 1px solid;
 }
 
-@media screen and (max-width: 1005px)
-{
-    .works
-    {
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
+@media screen and (max-width: 1005px) {
+	.works {
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.works > div:last-child {
+		margin-bottom: 0;
+	}
 }

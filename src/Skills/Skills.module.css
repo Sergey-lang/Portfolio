@@ -1,48 +1,50 @@
-.skillsBlock
-{
-    height: auto;
-    padding: 75px 0;
+.skillsBlock {
+	height: auto;
+	padding: 75px 0;
 
-    background: rgb(74, 76, 76);
+	background: rgb(74, 76, 76);
 }
 
-.skillsContainer
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.skillsContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
-.title
-{
-    background-color: #e72020;
+.title {
+	background-color: #e72020;
 }
 
-.skills
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
-    width: 100%;
+	width: 100%;
 
-    border: 1px solid;
+	border: 1px solid;
 }
 
-@media screen and (max-width: 934px)
-{
-    .skills
-    {
-        justify-content: space-around;
-    }
+/* .skills > div:last-child {
+	margin-bottom: 0;
+} */
+
+@media screen and (max-width: 934px) {
+	.skills {
+		justify-content: space-around;
+	}
+	.skills > div:last-child {
+		margin-bottom: 0;
+	}
 }
 
-@media screen and (max-width: 700px)
-{
-    .skills
-    {
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
+@media screen and (max-width: 700px) {
+	.skills {
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.skills > div:last-child {
+		margin-bottom: 0;
+	}
 }

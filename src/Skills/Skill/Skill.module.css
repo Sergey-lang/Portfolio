@@ -1,31 +1,27 @@
-.skillBlock
-{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.skillBlock {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 
-    max-width: 250px;
+	max-width: 250px;
 
-    background-color: #c3c3c3;
+	background-color: #c3c3c3;
 }
 
-.icon
-{
-    width: 60px;
-    height: 60px;
+.icon {
+	width: 60px;
+	height: 60px;
 
-    background-color: #efefed;
+	background-color: #efefed;
 }
 
-.discription
-{
-    text-align: center;
+.discription {
+	text-align: center;
+	padding: 10px 5px;
 }
 
-@media screen and (max-width: 1005px)
-{
-    .skillBlock
-    {
-        margin-bottom: 10px;
-    }
+@media screen and (max-width: 934px) {
+	.skillBlock {
+		margin-bottom: 10px;
+	}
 }

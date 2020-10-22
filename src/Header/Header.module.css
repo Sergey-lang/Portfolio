@@ -1,18 +1,15 @@
-.header
-{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 
-    height: 80px;
+	height: 80px;
 
-    background: rgb(74, 76, 76);
+	background: rgb(74, 76, 76);
 }
 
-@media screen and (max-width: 760px)
-{
-    .header
-    {
-        justify-content: center;
-    }
+@media screen and (max-width: 760px) {
+	.header {
+		justify-content: center;
+	}
 }
