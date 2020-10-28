@@ -2,7 +2,7 @@ import React from 'react'
 import s from './Work.module.css'
 import { Button } from './../../common/styles/components/Button'
 
-export function Work({ projectName, description, ...props }) {
+export const Work = React.memo(({ projectName, description, ...props }) => {
 	return (
 		<div className={s.workBlock}>
 			<div className={s.projectImg}>
@@ -14,4 +14,4 @@ export function Work({ projectName, description, ...props }) {
 			</div>
 		</div>
 	)
-}
+})

@@ -3,7 +3,7 @@ import s from './Contact.module.css'
 import sContainer from './../common/styles/Container.module.css'
 import { Button } from '../common/styles/components/Button'
 
-export function Contact() {
+export const Contact = React.memo(() => {
 	return (
 		<div className={s.contactBlock}>
 			<div className={`${sContainer.container} ${s.contactContainer}`}>
@@ -25,4 +25,4 @@ export function Contact() {
 			</div>
 		</div>
 	)
-}
+})

@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Skill.module.css'
 
-export function Skill(props) {
+export const Skill = React.memo((props) => {
 	return (
 		<div className={s.skillBlock}>
 			<div className={s.icon}></div>
@@ -9,4 +9,4 @@ export function Skill(props) {
 			<span className={s.discription}>{props.discription}</span>
 		</div>
 	)
-}
+})

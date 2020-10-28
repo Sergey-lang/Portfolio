@@ -2,7 +2,7 @@ import React from 'react'
 import s from './Footer.module.css'
 import sContainer from './../common/styles/Container.module.css'
 
-export function Footer() {
+export const Footer = React.memo(() => {
 	return (
 		<div className={s.footerBlock}>
 			<div className={`${sContainer.container} ${s.footerContainer}`}>
@@ -17,4 +17,4 @@ export function Footer() {
 			</div>
 		</div>
 	)
-}
+})

@@ -2,7 +2,7 @@ import React from 'react'
 import s from './Main.module.css'
 import sContainer from './../common/styles/Container.module.css'
 
-export function Main() {
+export const Main = React.memo(() => {
 	return (
 		<div className={s.mainBlock}>
 			<div className={sContainer.container}>
@@ -15,4 +15,4 @@ export function Main() {
 			</div>
 		</div>
 	)
-}
+})

@@ -3,7 +3,7 @@ import s from './MyWorks.module.css'
 import sContainer from './../common/styles/Container.module.css'
 import { Work } from './Work/Work'
 
-export function MyWorks() {
+export const MyWorks = React.memo(() => {
 	return (
 		<div className={s.worksBlock}>
 			<div className={`${sContainer.container} ${s.worksContainer}`}>
@@ -25,4 +25,4 @@ export function MyWorks() {
 			</div>
 		</div>
 	)
-}
+})

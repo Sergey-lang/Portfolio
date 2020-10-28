@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Nav.module.css'
 
-export function Nav() {
+export const Nav = React.memo(() => {
 	return (
 		<div className={s.nav}>
 			<a href="">Main</a>
@@ -10,4 +10,4 @@ export function Nav() {
 			<a href="">Contacts</a>
 		</div>
 	)
-}
+})
