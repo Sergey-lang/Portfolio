@@ -1,12 +1,13 @@
 import React from 'react'
 import s from './Footer.module.css'
 import sContainer from './../common/styles/Container.module.css'
+import { Title } from '../common/styles/components/Title/Title'
 
 export const Footer = React.memo(() => {
 	return (
 		<div className={s.footerBlock}>
 			<div className={`${sContainer.container} ${s.footerContainer}`}>
-				<h2 className={s.title}>Sergey Kykharynok</h2>
+				<Title title={'Sergey Kykharynok'} />
 				<div className={s.socialLinksBlock}>
 					<div className={s.socialLink}>1</div>
 					<div className={s.socialLink}>2</div>

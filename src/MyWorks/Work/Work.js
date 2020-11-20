@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './Work.module.css'
-import { Button } from './../../common/styles/components/Button'
+import { Button } from './../../common/styles/components/Button/Button'
 
 export const Work = React.memo(({ projectName, description, ...props }) => {
 	return (

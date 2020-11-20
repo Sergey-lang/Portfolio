@@ -2,12 +2,13 @@ import React from 'react'
 import s from './MyWorks.module.css'
 import sContainer from './../common/styles/Container.module.css'
 import { Work } from './Work/Work'
+import { Title } from '../common/styles/components/Title/Title'
 
 export const MyWorks = React.memo(() => {
 	return (
 		<div className={s.worksBlock}>
 			<div className={`${sContainer.container} ${s.worksContainer}`}>
-				<h2 className={s.title}>My works</h2>
+				<Title title={'My works'} />
 				<div className={s.works}>
 					<Work
 						projectName={'First Project'}

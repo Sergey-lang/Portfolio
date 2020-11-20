@@ -1,16 +1,17 @@
 .container {
-    border: 1px solid;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+	border: 1px solid;
+	height: 100%;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 @media screen and (max-width: 760px) {
-    .container {
-        justify-content: center;
-    }
+	.container {
+		justify-content: center;
+		flex-direction: column;
+	}
 }
