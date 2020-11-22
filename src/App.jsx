@@ -7,12 +7,18 @@ import {MyWorks} from "./MyWorks/MyWorks";
 import {OfferWork} from "./OfferWork/OfferWork";
 import {Contact} from "./Contact/Contact";
 import {Footer} from "./Footer/Footer";
+import myPhoto from './common/assets/images/me.jpg'
 
 function App() {
+   const personalPhoto = {
+      backgroundImage:`url(${myPhoto})`,
+   }
     return (
         <div className="App">
-            <Header/>
-            <Main/>
+            <div style={personalPhoto}>
+               <Header/>
+               <Main/>
+            </div>
             <Skills/>
             <MyWorks/>
             <OfferWork/>

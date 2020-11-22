@@ -7,7 +7,9 @@ export const Footer = React.memo(() => {
 	return (
 		<div className={s.footerBlock}>
 			<div className={`${sContainer.container} ${s.footerContainer}`}>
-				<Title title={'Sergey Kykharynok'} />
+				<Title title={'Sergey Kykharynok'}
+						 titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur eos ipsa, nihil provident quibusdam.'}
+				/>
 				<div className={s.socialLinksBlock}>
 					<div className={s.socialLink}>1</div>
 					<div className={s.socialLink}>2</div>

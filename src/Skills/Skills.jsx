@@ -8,25 +8,25 @@ export const Skills = React.memo(() => {
 	return (
 		<div className={s.skillsBlock}>
 			<div className={`${sContainer.container} ${s.skillsContainer}`}>
-				<Title title={'Skills'} />
+				<Title title={'Skills'}
+						 titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores harum officia tempore!'}
+				/>
 				<div className={s.skills}>
 					<Skill
-						title={'JS'}
-						discription={
-							'lorem15 gsdsdgdg dsg dwg  sgf dsf gsd fgdf f sdg dfs gsdfg sdf gsdf gds g'
-						}
+						title={'Java Script'}
+						discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
 					/>
 					<Skill
-						title={'CSS'}
-						discription={
-							'lorem15 gsdsdgdg dsg dwg  sgf dsf gsd fgdf f sdg dfs gsdfg sdf gsdf gds g'
-						}
+						title={'Css and Html'}
+						discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
 					/>
 					<Skill
-						title={'REACT'}
-						discription={
-							'lorem15 gsdsdgdg dsg dwg  sgf dsf gsd fgdf f sdg dfs gsdfg sdf gsdf gds g'
-						}
+						title={'React and Native'}
+						discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
+					/>
+					<Skill
+						title={'React and Native'}
+						discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
 					/>
 				</div>
 			</div>

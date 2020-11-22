@@ -1,25 +1,37 @@
 .mainBlock {
+	display: flex;
+	align-items: center;
 	min-height: 100vh;
-	padding: 50px 0;
-
-	background: rgb(114, 117, 117);
 }
 
 .greeting {
 	min-width: 200px;
 	width: 100%;
-	max-width: 300px;
+	max-width: 70%;
 
-	background-color: #c3c3c3;
 }
 
-.photo {
-	min-width: 200px;
-	width: 100%;
-	max-width: 300px;
-	height: 400px;
+.profession {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	display: block;
+	margin-bottom: 20px;
+	color: rgba(198,201,216,.75);
+}
 
-	background-color: #e72020;
+.greeting h1 {
+	font-size: 75px;
+	font-weight: 900;
+	line-height: 90px;
+	color: #fff;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.greeting .name {
+	color: #f9004d;
+	display: inline-block;
 }
 
 @media screen and (max-width: 760px) {

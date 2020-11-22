@@ -8,7 +8,9 @@ export function OfferWork() {
 	return (
 		<div className={s.offerBlock}>
 			<div className={`${sContainer.container} ${s.offerContainer}`}>
-				<Title title={'Сonsidering work options'} />
+				<Title title={'Сonsidering work options'}
+						 titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur eos ipsa, nihil provident quibusdam.'}
+				/>
 				<Button name={'Hire me'} />
 			</div>
 		</div>

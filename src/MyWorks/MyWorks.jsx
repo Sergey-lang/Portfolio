@@ -8,18 +8,32 @@ export const MyWorks = React.memo(() => {
 	return (
 		<div className={s.worksBlock}>
 			<div className={`${sContainer.container} ${s.worksContainer}`}>
-				<Title title={'My works'} />
+				<Title title={'My works'}
+						 titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing.'}
+				/>
 				<div className={s.works}>
 					<Work
 						projectName={'First Project'}
 						description={
-							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque cupiditate esse nulla optio vel? Aspernatur autem dolores labore modi.'
+							'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 						}
 					/>
 					<Work
 						projectName={'Second Project'}
 						description={
-							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor ducimus eaque esse facere inventore nam nobis nostrum officia omnis quae quidem sint vel vero vitae voluptatibus!'
+							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
+						}
+					/>
+					<Work
+						projectName={'Second Project'}
+						description={
+							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
+						}
+					/>
+					<Work
+						projectName={'Second Project'}
+						description={
+							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
 						}
 					/>
 				</div>

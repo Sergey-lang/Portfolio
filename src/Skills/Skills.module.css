@@ -1,8 +1,7 @@
 .skillsBlock {
 	height: auto;
-	padding: 75px 0;
-
-	background: rgb(74, 76, 76);
+	padding: 100px 0;
+	background-color: var(--first-bg-color);
 }
 
 .skillsContainer {
@@ -11,23 +10,13 @@
 	justify-content: flex-start;
 }
 
-.title {
-	background-color: #e72020;
-}
-
 .skills {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 
 	width: 100%;
-
-	border: 1px solid;
 }
-
-/* .skills > div:last-child {
-	margin-bottom: 0;
-} */
 
 @media screen and (max-width: 934px) {
 	.skills {
