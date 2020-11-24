@@ -13,14 +13,17 @@
 	padding: 60px 45px;
 	border-radius: 10px;
 	flex-direction: column;
-	background-color: #191919;
+	background-color: var(--skills-card-background-color);
 	transition: all .3s cubic-bezier(.645,.045,.355,1);
 }
 
 .skillBlock:hover {
-	background-image: linear-gradient(to right,#f81f01,#ee076e);
+	background-color: var(--skills-card-hover-bg-color);
 	cursor: pointer;
 	transform: translateY(-5px);
+}
+
+.skillBlock:hover p {
 	color: #ffffff;
 }
 
@@ -29,10 +32,4 @@
 	height: 60px;
 
 	background-color: #efefed;
-}
-
-@media screen and (max-width: 934px) {
-	.skillBlock {
-		margin-bottom: 10px;
-	}
 }

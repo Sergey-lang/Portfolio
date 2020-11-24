@@ -21,7 +21,7 @@
    outline: none;
    margin-bottom: 20px;
    border-radius: 5px;
-   font-size: 16px;
+   font-size: 20px;
    letter-spacing: .1px;
    border: 3px solid rgba(255, 255, 255, .2);
    color: rgba(198, 201, 216, .75);
@@ -32,9 +32,14 @@
    color: #717173;
 }
 
+.contactForm textarea::placeholder {
+   color: #717173;
+}
+
 .contactForm textarea {
    height: 150px;
    resize: none;
+   font-family: 'Poppins', sans-serif;
 }
 
 .contactBtn {

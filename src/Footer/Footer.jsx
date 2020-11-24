@@ -1,23 +1,42 @@
 import React from 'react'
 import s from './Footer.module.css'
 import sContainer from './../common/styles/Container.module.css'
-import { Title } from '../common/styles/components/Title/Title'
+import socialIn from './../common/assets/images/icons8-linkedin-2.svg'
+import socialVk from './../common/assets/images/icons8-vkontakte.svg'
+import socialInst from './../common/assets/images/icons8-instagram.svg'
 
 export const Footer = React.memo(() => {
-	return (
-		<div className={s.footerBlock}>
-			<div className={`${sContainer.container} ${s.footerContainer}`}>
-				<Title title={'Sergey Kykharynok'}
-						 titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur eos ipsa, nihil provident quibusdam.'}
-				/>
-				<div className={s.socialLinksBlock}>
-					<div className={s.socialLink}>1</div>
-					<div className={s.socialLink}>2</div>
-					<div className={s.socialLink}>3</div>
-					<div className={s.socialLink}>4</div>
-				</div>
-				<h2>@2020 All rights reserved</h2>
-			</div>
-		</div>
-	)
+   return (
+      <div className={s.footerWrapper}>
+         <div className={`${sContainer.container} ${s.footerContainer}`}>
+            <div className={s.wrapper}>
+               <div className={s.innerText}>
+                  <ul className={s.socialShare}>
+                     <li>
+                        <a href="#">
+                           <img src={socialIn} alt=""/>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src={socialVk} alt=""/>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src={socialInst} alt=""/>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src={socialIn} alt=""/>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <p>© 2020. All rights reserved by Sergey</p>
+            </div>
+         </div>
+      </div>
+   )
 })

@@ -17,7 +17,7 @@
 	letter-spacing: 4px;
 	display: block;
 	margin-bottom: 20px;
-	color: rgba(198,201,216,.75);
+	color: var(--main-headline-text);
 }
 
 .greeting h1 {
@@ -30,12 +30,6 @@
 }
 
 .greeting .name {
-	color: #f9004d;
+	color: var(--main-headline-span);
 	display: inline-block;
-}
-
-@media screen and (max-width: 760px) {
-	.greeting {
-		text-align: center;
-	}
 }

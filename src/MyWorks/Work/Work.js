@@ -2,7 +2,7 @@ import React from 'react'
 import s from './Work.module.css'
 import {Button} from './../../common/styles/components/Button/Button'
 
-export const Work = ({projectName, description, ...props}) => {
+export const Work = ({projectName, description}) => {
    return (
       <div className={s.workItem}>
          <div className={s.singleProject}>

@@ -1,57 +1,100 @@
-.footerBlock {
+.footerWrapper {
+	display: flex;
 	height: auto;
-	padding: 100px 0;
+	padding: 20px 50px;
 	background-color: var(--first-bg-color);
 }
 
 .footerContainer {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.innerText {
+	text-align: center;
+}
+
+.socialShare {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
 	justify-content: center;
 }
 
-.title {
-	background-color: #e72020;
+.socialShare li {
+	margin: 6px 5px;
+}
+
+.socialShare li:hover {
+
+}
+
+.socialShare li a {
+	width: 50px;
+	height: 50px;
+	line-height: 47px;
+	font-size: 16px;
+	display: inline-block;
+	border: 3px solid rgba(198,201,216,.75);
+	color: rgba(198,201,216,.75);
+	border-radius: 100%;
+	text-align: center;
+	text-decoration: none;
+	background-color: transparent;
+	transition: .3s;
+}
+
+.socialShare li a:hover {
+	background: var(--footer-share-hover-bg-color);
+	border-color: var(--footer-share-hover-bg-color);
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+	transform: translateY(-3px);
 }
 
 .socialLinksBlock {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-
-	width: 40%;
+	max-width: 30%;
 }
 
-.socialLink {
-	flex-wrap: wrap;
 
-	width: 50px;
-	height: 50px;
-
-	background-color: honeydew;
+.wrapper img {
+	width: 16px;
 }
 
-.footerBlock h2 {
-	text-align: center;
+.rights {
+	display: flex;
+	max-width: 30%;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
-@media screen and (max-width: 680px) {
-	.socialLinksBlock {
-		justify-content: space-around;
-	}
-
-	.socialLinksBlock .socialLink {
-		margin: 5px;
-	}
+.rightText {
+	text-align: right;
 }
 
-@media screen and (max-width: 380px) {
-	.socialLinksBlock {
-	}
+.rightText p {
+	color: #c6c9d8;
+	font-size: 14px;
+	opacity: .75;
+	line-height: 1.9;
+	font-weight: 400;
 
-	.socialLinksBlock .socialLink {
-		width: 110px;
-		height: 110px;
-	}
 }
+
+
+
+
+
+
+
