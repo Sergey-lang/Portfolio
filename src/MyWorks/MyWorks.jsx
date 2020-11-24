@@ -19,11 +19,11 @@ export const MyWorks = React.memo(() => {
 	}
 
 	const fourWork = {
-		backgroundImage: `url(${three})`,
+		backgroundImage: `url("${three}")`,
 	}
 
 	const fiveWork = {
-		backgroundImage: `url(${four})`,
+		backgroundImage: `url("${four}")`,
 	}
 
 	return (

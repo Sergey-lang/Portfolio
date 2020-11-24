@@ -10,3 +10,13 @@
 	justify-content: flex-start;
 }
 
+.offerBtn {
+	border: 3px solid rgba(255, 255, 255, .3);
+}
+
+.offerBtn:hover {
+	background-color: #f9004d;
+	border: 3px solid #f9004d;
+}
+
+

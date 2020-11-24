@@ -10,12 +10,9 @@
    justify-content: center;
    align-items: center;
    height: 40px;
-   border: 3px solid rgba(255, 255, 255, .3);
    border-radius: 4px;
    font-size: 14px;
    letter-spacing: .2px;
-   color: #fff;
-   background: 0 0;
    transition: .3s;
 }
 
@@ -25,7 +22,5 @@
 
 .buttonWrapper:hover {
    cursor: pointer;
-   background-color: #f9004d;
-   border: 3px solid #f9004d;
    transform: translateY(-3px);
 }

@@ -11,7 +11,7 @@ export function OfferWork() {
             <Title title={`Let's get to work`}
                    titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur eos ipsa, nihil provident quibusdam.'}
             />
-            <Button name={'Hire me'}/>
+            <Button name={'Hire me'} className={s.offerBtn}/>
          </div>
       </div>
    )
