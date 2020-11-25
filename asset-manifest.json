@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/My_portfolio/static/css/main.90492753.chunk.css",
-    "main.js": "/My_portfolio/static/js/main.1b4ed90f.chunk.js",
-    "main.js.map": "/My_portfolio/static/js/main.1b4ed90f.chunk.js.map",
+    "main.css": "/My_portfolio/static/css/main.88b92ba9.chunk.css",
+    "main.js": "/My_portfolio/static/js/main.b5faaa0f.chunk.js",
+    "main.js.map": "/My_portfolio/static/js/main.b5faaa0f.chunk.js.map",
     "runtime-main.js": "/My_portfolio/static/js/runtime-main.04439d10.js",
     "runtime-main.js.map": "/My_portfolio/static/js/runtime-main.04439d10.js.map",
-    "static/js/2.78466930.chunk.js": "/My_portfolio/static/js/2.78466930.chunk.js",
-    "static/js/2.78466930.chunk.js.map": "/My_portfolio/static/js/2.78466930.chunk.js.map",
+    "static/js/2.e5fb8142.chunk.js": "/My_portfolio/static/js/2.e5fb8142.chunk.js",
+    "static/js/2.e5fb8142.chunk.js.map": "/My_portfolio/static/js/2.e5fb8142.chunk.js.map",
     "index.html": "/My_portfolio/index.html",
-    "precache-manifest.8eac72b68d4f1ddee346d5912972a82b.js": "/My_portfolio/precache-manifest.8eac72b68d4f1ddee346d5912972a82b.js",
+    "precache-manifest.735adc6e9caf7d25b474016b439e5df4.js": "/My_portfolio/precache-manifest.735adc6e9caf7d25b474016b439e5df4.js",
     "service-worker.js": "/My_portfolio/service-worker.js",
-    "static/css/main.90492753.chunk.css.map": "/My_portfolio/static/css/main.90492753.chunk.css.map",
-    "static/js/2.78466930.chunk.js.LICENSE.txt": "/My_portfolio/static/js/2.78466930.chunk.js.LICENSE.txt",
+    "static/css/main.88b92ba9.chunk.css.map": "/My_portfolio/static/css/main.88b92ba9.chunk.css.map",
+    "static/js/2.e5fb8142.chunk.js.LICENSE.txt": "/My_portfolio/static/js/2.e5fb8142.chunk.js.LICENSE.txt",
     "static/media/dp-big-portfolio-01.jpg": "/My_portfolio/static/media/dp-big-portfolio-01.113e30db.jpg",
     "static/media/dp-big-portfolio-03.jpg": "/My_portfolio/static/media/dp-big-portfolio-03.31695675.jpg",
     "static/media/dp-big-portfolio-04.jpg": "/My_portfolio/static/media/dp-big-portfolio-04.973f7382.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.04439d10.js",
-    "static/js/2.78466930.chunk.js",
-    "static/css/main.90492753.chunk.css",
-    "static/js/main.1b4ed90f.chunk.js"
+    "static/js/2.e5fb8142.chunk.js",
+    "static/css/main.88b92ba9.chunk.css",
+    "static/js/main.b5faaa0f.chunk.js"
   ]
 }
