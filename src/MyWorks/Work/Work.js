@@ -5,7 +5,7 @@ import {Button} from './../../common/styles/components/Button/Button'
 export const Work = ({projectName, description, ...props}) => {
    return (
       <div className={s.workItem}>
-         <div className={s.singleProject}>
+         <div className={s.workBlock}>
             <div className={s.projectImg} style={props.style}>
                <Button className={s.projectBtn} name={'Watch'}/>
             </div>

@@ -23,10 +23,16 @@ body {
    --skills-card-background-color:#191919;
    --skills-card-hover-bg-color:rgb(248,31,1);
    --footer-share-hover-bg-color:#f9004d;
+   --navbar-menu-item-color:#fff;
+   --navbar-menu-item-hover-color:#f9004d;
 }
 
 a {
    text-decoration: none;
+}
+
+ul {
+   list-style: none;
 }
 
 code {

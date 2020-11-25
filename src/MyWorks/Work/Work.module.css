@@ -1,17 +1,19 @@
 .workItem {
    display: flex;
    flex-direction: column;
-   max-width: 340px;
-   border-radius: 10px;
-   background-color: var(--work-card-background-color);
+   max-width: 33.333333%;
    margin-top: 30px;
-   flex: 0 0 33.333333%;
    width: 100%;
    height: min-content;
+   padding: 0 15px;
 }
 
-.singleProject {
-
+.workBlock {
+   display: flex;
+   align-items: flex-start;
+   border-radius: 10px;
+   flex-direction: column;
+   background-color: var(--work-card-background-color);
 }
 
 .projectImg {
@@ -41,22 +43,27 @@ p {
 }
 
 .projectBtn {
-   border: 3px solid #f9004d;
-   background: #f9004d;
    color: #fff;
-}
-
-.projectBtn a {
-   color: #fff;
+   background: #101010;
+   border: 3px solid #ffffff;
+   box-shadow: 0 10px 15px 0 rgba(249,0,77,.1);
+   opacity: 0.8;
 }
 
 .projectBtn:hover {
    border: 3px solid #f9004d;
-   box-shadow: 0 10px 15px 0 rgba(249,0,77,.1);
-   background: 0 0;
+   background: #f9004d;
 }
 
-.projectBtn a:hover {
-   color: #131212;
-   background: #eff1f5;
+@media (min-width: 700px) and (max-width: 1240px) {
+   .workItem {
+      max-width: 49.333333%;
+   }
 }
+
+@media (max-width: 790px) {
+   .workItem {
+      max-width: 100%;
+   }
+}
+

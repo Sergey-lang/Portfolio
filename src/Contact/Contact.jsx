@@ -11,16 +11,18 @@ export const Contact = React.memo(() => {
             <Title title={'Contact'}
                    titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus?'}
             />
-            <form className={s.contactForm}>
-               <input type="text" id="fname" name="fname" placeholder={'Your Name'}/>
-               <input type="text" id="lname" name="lname" placeholder={'Your Last Name'}/>
-               <textarea type="text" id="larea" name="larea" placeholder={'Your Message'}/>
-            </form>
-            <Button name={'Send message'}
-                    className={s.contactBtn}
-                    newStyle
-                    button
-            />
+            <div className={s.formWrapper}>
+               <form className={s.contactForm}>
+                  <input type="text" id="fname" name="fname" placeholder={'Your Name'}/>
+                  <input type="text" id="lname" name="lname" placeholder={'Your Last Name'}/>
+                  <textarea type="text" id="larea" name="larea" placeholder={'Your Message'}/>
+               </form>
+               <Button name={'Send message'}
+                       className={s.contactBtn}
+                       newStyle
+                       button
+               />
+            </div>
          </div>
       </div>
    )

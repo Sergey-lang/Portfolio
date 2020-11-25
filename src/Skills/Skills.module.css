@@ -7,13 +7,11 @@
 .skillsContainer {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
 }
 
 .skills {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-
 	width: 100%;
+	justify-content: flex-start;
 }

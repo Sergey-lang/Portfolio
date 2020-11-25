@@ -9,9 +9,7 @@ export const Button = React.memo((
    return (
       <>
          {!button
-            ? <div className={finalClassName}>
-               <a href='#'>{name}</a>
-            </div>
+            ? <a href='#' className={finalClassName}>{name}</a>
             : <button type={'submit'} className={finalClassName}>
                <span>{name}</span>
             </button>
