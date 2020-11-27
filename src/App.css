@@ -1,7 +1,58 @@
-.App {
+.mainBg:after {
+   display: none;
+   background: #000;
+   z-index: -1;
+   position: absolute;
+   content: "";
+   height: 100%;
+   width: 100%;
+   opacity: .5;
+   left: 0;
+   top: 0;
    background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
 }
+
+.mainBg {
+   background-image: url("common/assets/images/me.jpg");
+   background-repeat: no-repeat;
+   z-index: -999;
+}
+
+@media (max-width: 1199px) {
+   .contactBtn {
+      max-width: 70%;
+   }
+   .mainBg:after {
+      display: block;
+   }
+}
+
+@media (max-width: 982px) {
+   .mainBg {
+      background-position-x: 20%;
+   }
+}
+
+@media (max-width: 767px) {
+   .contactBtn {
+      max-width: 70%;
+   }
+   .mainBg:after {
+      display: block;
+   }
+
+   .personalPhoto {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+   }
+
+   .mainBg {
+      background-position: right;
+      background-size: cover;
+   }
+}
+
+
 
 

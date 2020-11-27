@@ -1,7 +1,8 @@
 .nav {
    display: block;
    justify-content: space-evenly;
-   width: auto;
+   width: 100%;
+   align-items: center;
 }
 
 .navbar {

@@ -1,14 +1,15 @@
 .mainBlock {
 	display: flex;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 800px;
 }
 
 .greeting {
+	position: relative;
 	min-width: 200px;
 	width: 100%;
 	max-width: 70%;
-
+	padding: 15px 0 15px;
 }
 
 .profession {
@@ -25,11 +26,35 @@
 	font-weight: 900;
 	line-height: 90px;
 	color: #fff;
-	margin: 0;
-	margin-bottom: 15px;
+	margin: 0 0 15px 0;
 }
 
 .greeting .name {
 	color: var(--main-headline-span);
 	display: inline-block;
 }
+
+
+@media (max-width: 900px) {
+	.greeting {
+		max-width: 100%;
+		padding: 76px 0 0 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.greeting h1 {
+		font-size: 32px;
+		margin-bottom: 20px;
+		line-height: 49px;
+	}
+	.profession {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.mainBlock {
+		min-height: 356px;
+	}
+
+}
+

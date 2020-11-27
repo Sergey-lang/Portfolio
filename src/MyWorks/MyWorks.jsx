@@ -34,25 +34,25 @@ export const MyWorks = React.memo(() => {
 				/>
 				<div className={s.works}>
 					<Work style={oneWork}
-						projectName={'First Project'}
+						projectName={'Social Network'}
 						description={
 							'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 						}
 					/>
 					<Work style={threeWork}
-						projectName={'Second Project'}
+						projectName={'Todo List'}
 						description={
 							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
 						}
 					/>
 					<Work style={fourWork}
-						projectName={'Second Project'}
+						projectName={'Simple Components'}
 						description={
 							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
 						}
 					/>
 					<Work style={fiveWork}
-						projectName={'Second Project'}
+						projectName={'In near future...'}
 						description={
 							'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
 						}

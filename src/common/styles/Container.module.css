@@ -5,4 +5,17 @@
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 0 auto;
+	z-index: 2;
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 80%
+	}
+}
+
+@media (max-width: 450px) {
+	.container {
+		width: 92%
+	}
 }

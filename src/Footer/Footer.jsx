@@ -18,12 +18,12 @@ export const Footer = React.memo(() => {
                         </a>
                      </li>
                      <li>
-                        <a href="#">
+                        <a href="https://vk.com/19sergey_k">
                            <img src={socialVk} alt=""/>
                         </a>
                      </li>
                      <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/?hl=ru">
                            <img src={socialInst} alt=""/>
                         </a>
                      </li>

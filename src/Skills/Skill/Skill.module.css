@@ -69,4 +69,10 @@
 	.skillItem {
 		max-width: 100%;
 	}
+	.skillBlock:before {
+		opacity: 1;
+	}
+	.skillBlock p {
+		color: #ffffff;
+	}
 }

@@ -17,15 +17,31 @@ export const Skills = React.memo(() => {
                   discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
                />
                <Skill
-                  title={'Css and Html'}
+                  title={'Css/Html'}
                   discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
                />
                <Skill
-                  title={'React and Native'}
+                  title={'React'}
                   discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
                />
                <Skill
-                  title={'React and Native'}
+                  title={'Native React'}
+                  discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
+               />
+               <Skill
+                  title={'TypeScript'}
+                  discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
+               />
+               <Skill
+                  title={'Unit Testing'}
+                  discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
+               />
+               <Skill
+                  title={'NodeJS'}
+                  discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
+               />
+               <Skill
+                  title={'GraphQL'}
                   discription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quas!'}
                />
             </div>

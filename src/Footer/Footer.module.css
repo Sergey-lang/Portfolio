@@ -75,17 +75,20 @@
 	padding-left: 15px;
 }
 
-.rightText {
-	text-align: right;
+.wrapper p {
+	text-align: center;
+	padding: 10px;
 }
 
-.rightText p {
-	color: #c6c9d8;
-	font-size: 14px;
-	opacity: .75;
-	text-align: center;
-	line-height: 1.9;
-	font-weight: 400;
+@media (max-width: 400px) {
+	.wrapper p {
+		font-size: 16px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.footerWrapper {
+		margin: 0;
+	}
 }
 
 
