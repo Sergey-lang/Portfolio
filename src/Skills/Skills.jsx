@@ -1,12 +1,12 @@
 import React from 'react'
-import s from './Skills.module.css'
+import s from './Skills.module.scss'
 import sContainer from './../common/styles/Container.module.css'
 import {Skill} from './Skill/Skill'
 import {Title} from '../common/styles/components/Title/Title'
 
-export const Skills = React.memo(() => {
+export const Skills = () => {
    return (
-      <div className={s.skillsBlock}>
+      <div className={s.skillsBlock} id='#skills'>
          <div className={`${sContainer.container} ${s.skillsContainer}`}>
             <Title title={'Skills'}
                    titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores harum officia tempore!'}
@@ -48,4 +48,4 @@ export const Skills = React.memo(() => {
          </div>
       </div>
    )
-})
+}

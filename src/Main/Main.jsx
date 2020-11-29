@@ -1,8 +1,8 @@
 import React from 'react'
-import s from './Main.module.css'
+import s from './Main.module.scss'
 import sContainer from './../common/styles/Container.module.css'
 
-export const Main = React.memo(() => {
+export const Main = () => {
 
    return (
       <div className={s.mainBlock}>
@@ -15,4 +15,4 @@ export const Main = React.memo(() => {
          </div>
       </div>
    )
-})
+}
