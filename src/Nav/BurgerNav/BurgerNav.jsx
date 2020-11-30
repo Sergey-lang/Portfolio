@@ -28,11 +28,11 @@ export const BurgerNav = (props) => {
    return (
       <ul className={s.mainMenuNav}
           style={props.state ? Show : Hide}>
-         <div className={s.closeMenu} style={props.state ? ShowTrigger : HideTrigger}>
-            <span className={s.closeTrigger}>
-               <img src={close} alt="" onClick={() => props.changeState(false)}/>
-            </span>
-         </div>
+         {/*<div className={s.closeMenu} style={props.state ? ShowTrigger : HideTrigger}>*/}
+         {/*   <span className={s.closeTrigger}>*/}
+         {/*      <img src={close} alt="" onClick={() => props.changeState(false)}/>*/}
+         {/*   </span>*/}
+         {/*</div>*/}
          <li className={s.menuItem}>
             <a href="">Main</a>
          </li>

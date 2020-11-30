@@ -5,7 +5,6 @@
    left: 0;
    right: 0;
    width: 100%;
-   z-index: 5;
 }
 
 .headerWrapper {
@@ -22,14 +21,87 @@
 }
 
 .headerRight {
-   display: none;
+   display: flex;
    align-items: center;
    flex-wrap: wrap;
+   justify-content: flex-end;
+   width: auto;
 }
 
+.socialShareInner {
+   display: flex;
+   width: auto;
+}
+
+.socialShare {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+}
+
+.socialShare li {
+   padding-left: 10px;
+   margin: 6px 5px;
+}
+
+.socialShare li a {
+   display: flex;
+   align-items: center;
+   opacity: .8;
+   transition: .3s;
+   justify-content: center;
+   width: 35px;
+   height: 35px;
+   color: rgba(198, 201, 216, .75);
+   border-radius: 100%;
+}
+
+.socialShare li a:hover {
+   border: 3px solid rgba(198, 201, 216, .75);
+   border-radius: 50%;
+   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
+   transform: translateY(-3px);
+}
+
+.socialShare img {
+   width: 16px;
+}
+
+.headerBtnWrapper {
+   margin-left: 50px;
+}
+
+.headerBtn {
+   color: white;
+   border: 3px solid rgba(255, 255, 255, .3);
+   padding: 0 25px;
+   height: 46px;
+   display: inline-block;
+   border-radius: 6px;
+   font-size: 14px;
+   position: relative;
+   z-index: 2;
+   letter-spacing: 1px;
+   font-weight: 500;
+   transition: all .3s cubic-bezier(.645, .045, .355, 1);
+}
+
+.headerBtn:hover {
+   background-color: #f9004d;
+   border: 3px solid #f9004d;
+   transform: translateY(-3px);
+}
+
+.links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/*hamburegr*/
 .hamburgerMenu {
    padding-left: 20px;
-   display: flex;
+   display: none;
    justify-content: flex-end;
    width: auto;
 }
@@ -40,19 +112,31 @@
 
 .menuTrigger img {
    width: 30px;
+   position: static;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 1199px) {
+   .headerBtnWrapper {
+      margin-left: 10px;
+   }
+}
+
+
+@media (max-width: 991px) {
    .headerLeft {
       display: none;
    }
 
    .headerRight {
-      display: block;
+
    }
 
    .headerWrapper {
       justify-content: flex-end;
+      padding: 15px 0;
+   }
+   .hamburgerMenu {
+      display:block;
    }
 }
 
@@ -60,6 +144,16 @@
    .headerWrapper {
       justify-content: flex-end;
    }
+
+   .headerBtnWrapper {
+      display: none;
+   }
+
+   .socialShare li {
+      padding-left: 2px;
+      margin: 2px 1px;
+   }
+
 }
 
 

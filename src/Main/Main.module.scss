@@ -35,13 +35,17 @@
             display: inline-block;
          }
 
+         @media (max-width: 1199px) {
+            font-size: 58px;
+            line-height: 75px;
+         }
+
          @media screen and (max-width: 767px) {
             max-width: 430px;
             font-size: 32px;
             margin-bottom: 20px;
             line-height: 49px;
          }
-
       }
 
       @media screen and (max-width: 900px) {

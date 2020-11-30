@@ -1,0 +1,22 @@
+.worksBlock {
+   height: auto;
+   padding: 100px 0;
+   background-color: var(--second-bg-color);
+
+   .worksContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .works {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         width: 100%;
+      }
+   }
+}
+
+
+
+

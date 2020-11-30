@@ -19,12 +19,12 @@ body {
    --main-headline-text: rgba(198, 201, 216, .75);
    --main-headline-span: #f9004d;
    --h3-headline: #fff;
-   --work-card-background-color:#101010;
-   --skills-card-background-color:#191919;
-   --skills-card-hover-bg-color:rgb(248,31,1);
-   --footer-share-hover-bg-color:#f9004d;
-   --navbar-menu-item-color:#fff;
-   --navbar-menu-item-hover-color:#f9004d;
+   --work-card-background-color: #101010;
+   --skills-card-background-color: #191919;
+   --skills-card-hover-bg-color: rgb(248, 31, 1);
+   --footer-share-hover-bg-color: #f9004d;
+   --navbar-menu-item-color: #fff;
+   --navbar-menu-item-hover-color: #f9004d;
 }
 
 a {
@@ -60,9 +60,3 @@ h2 {
    font-weight: 700;
    font-size: 60px;
 }
-
-/*var(--h3-headline)*/
-/*var(--work-card-background-color)*/
-/*var(--skills-card-background-color)*/
-/*var(--skills-card-hover-bg-color:rgb(248,31,1))*/
-/*var(--h3-headline)*/

@@ -5,6 +5,7 @@ import {Skill} from './Skill/Skill'
 import {Title} from '../common/styles/components/Title/Title'
 
 export const Skills = () => {
+
    return (
       <div className={s.skillsBlock} id='#skills'>
          <div className={`${sContainer.container} ${s.skillsContainer}`}>

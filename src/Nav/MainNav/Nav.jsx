@@ -1,7 +1,8 @@
 import React from 'react'
 import s from './Nav.module.css'
 
-export const Nav = React.memo(() => {
+export const Nav = () => {
+
    return (
       <div className={s.nav}>
          <nav className={s.navbar}>
@@ -22,4 +23,4 @@ export const Nav = React.memo(() => {
          </nav>
       </div>
    )
-})
+}

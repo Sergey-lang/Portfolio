@@ -1,3 +1,10 @@
+.mainBg {
+   background-image: url("common/assets/images/me.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   z-index: -999;
+}
+
 .mainBg:after {
    display: none;
    background: #000;
@@ -12,17 +19,11 @@
    background-size: cover;
 }
 
-.mainBg {
-   background-image: url("common/assets/images/me.jpg");
-   background-size: cover;
-   background-repeat: no-repeat;
-   z-index: -999;
-}
-
 @media (max-width: 1199px) {
    .contactBtn {
       max-width: 70%;
    }
+
    .mainBg:after {
       display: block;
    }
@@ -35,11 +36,17 @@
 }
 
 @media (max-width: 767px) {
-   .contactBtn {
-      max-width: 70%;
+   .mainBg {
+      background-position: right;
+      background-size: cover;
    }
+
    .mainBg:after {
       display: block;
+   }
+
+   .contactBtn {
+      max-width: 70%;
    }
 
    .personalPhoto {
@@ -48,10 +55,7 @@
       background-repeat: no-repeat;
    }
 
-   .mainBg {
-      background-position: right;
-      background-size: cover;
-   }
+
 }
 
 

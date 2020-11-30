@@ -3,7 +3,12 @@ import s from './Header.module.css'
 import {Nav} from '../Nav/MainNav/Nav'
 import sContainer from '../common/styles/Container.module.css';
 import triggerMenu from './../common/assets/images/hamburger-menu.svg'
-import {BurgerNav} from '../Nav/BurgerNav/BurgerNav';
+import close from '../common/assets/images/closeTrigger.png';
+
+import socialIn from './../common/assets/images/icons8-linkedin-2.svg'
+import socialVk from './../common/assets/images/icons8-vkontakte.svg'
+import socialInst from './../common/assets/images/icons8-instagram.svg'
+import {Button} from '../common/styles/components/Button/Button';
 
 export const Header = () => {
 
@@ -16,14 +21,42 @@ export const Header = () => {
                <div className={s.headerLeft}>
                   <Nav/>
                </div>
-               <BurgerNav changeState={setTrigger}
-                          state={trigger}
-               />
-               <div className={s.headerRight}
-                    style={trigger ? {display: 'none'} : {display: 'block'}}>
+               <div className={s.headerRight}>
+                  <div className={s.socialShareInner}>
+                     <ul className={s.socialShare}>
+                        <li>
+                           <a href="">
+                              <div className={s.links}>
+                                 <img src={socialIn} alt=""/>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <div className={s.links}>
+                                 <img src={socialIn} alt=""/>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <div className={s.links}>
+                                 <img src={socialIn} alt=""/>
+                              </div>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div className={s.headerBtnWrapper}>
+                     <Button name={`LET'S TALK`} className={s.headerBtn} newStyle={true}/>
+                  </div>
                   <div className={s.hamburgerMenu}>
-                     <span className={s.menuTrigger} onClick={() => setTrigger(true)}>
-                           <img src={triggerMenu} alt="menu"/>
+                                        <span className={s.menuTrigger} onClick={() => setTrigger(true)}>
+                        {
+                           !trigger
+                              ? <img src={triggerMenu} alt="menu"/>
+                              : <img src={close} alt="" onClick={() => setTrigger(false)}/>
+                        }
                      </span>
                   </div>
                </div>

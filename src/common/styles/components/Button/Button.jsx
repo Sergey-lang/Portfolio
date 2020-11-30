@@ -1,10 +1,9 @@
 import React from 'react'
 import s from './Button.module.css'
 
-export const Button = React.memo((
+export const Button = (
    {className, name, newStyle, button, ...props}
 ) => {
-   console.log('button')
    const finalClassName = newStyle ? `${className} ${s.defaultBtn}` : `${s.buttonWrapper} ${className}`
    return (
       <>
@@ -16,4 +15,4 @@ export const Button = React.memo((
          }
       </>
    )
-})
+}

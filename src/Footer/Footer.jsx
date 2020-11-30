@@ -1,11 +1,12 @@
 import React from 'react'
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import sContainer from './../common/styles/Container.module.css'
 import socialIn from './../common/assets/images/icons8-linkedin-2.svg'
 import socialVk from './../common/assets/images/icons8-vkontakte.svg'
 import socialInst from './../common/assets/images/icons8-instagram.svg'
 
-export const Footer = React.memo(() => {
+export const Footer = () => {
+
    return (
       <div className={s.footerWrapper}>
          <div className={`${sContainer.container} ${s.footerContainer}`}>
@@ -39,4 +40,4 @@ export const Footer = React.memo(() => {
          </div>
       </div>
    )
-})
+}

@@ -1,0 +1,81 @@
+.footerWrapper {
+   display: flex;
+   height: auto;
+   padding: 20px 0px;
+   background-color: var(--first-bg-color);
+
+   .footerContainer {
+      display: flex;
+      flex-direction: column;
+
+      .wrapper {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         flex-wrap: wrap;
+
+         .innerText {
+            text-align: center;
+
+            .socialShare {
+               margin: 0;
+               padding: 0;
+               list-style: none;
+               display: flex;
+               justify-content: center;
+
+               li {
+                  margin: 6px 5px;
+
+                  a {
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     width: 50px;
+                     height: 50px;
+                     font-size: 16px;
+                     border: 3px solid rgba(198, 201, 216, .75);
+                     color: rgba(198, 201, 216, .75);
+                     border-radius: 100%;
+                     text-decoration: none;
+                     background-color: transparent;
+                     transition: .3s;
+
+                     &:hover {
+                        background: var(--footer-share-hover-bg-color);
+                        border-color: var(--footer-share-hover-bg-color);
+                        box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
+                        transform: translateY(-3px);
+                     }
+
+                     img {
+                        width: 16px;
+                     }
+                  }
+               }
+            }
+         }
+
+         p {
+            text-align: center;
+            padding: 10px;
+            @media screen and (max-width: 400px) {
+               font-size: 16px;
+               display: flex;
+               flex-wrap: wrap;
+            }
+         }
+      }
+   }
+
+   @media screen and (max-width: 400px) {
+      margin: 0;
+   }
+}
+
+
+
+
+
+

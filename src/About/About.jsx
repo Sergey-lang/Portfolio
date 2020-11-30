@@ -1,9 +1,9 @@
 import React from 'react'
 import s from './MyWorks.module.css'
 import sContainer from './../common/styles/Container.module.css'
-import { Title } from '../common/styles/components/Title/Title'
+import {Title} from '../common/styles/components/Title/Title'
 
-export const About = React.memo(() => {
+export const About = () => {
    return (
       <div className={s.worksBlock}>
          <div className={`${sContainer.container} ${s.worksContainer}`}>
@@ -19,4 +19,4 @@ export const About = React.memo(() => {
          </div>
       </div>
    )
-})
+}

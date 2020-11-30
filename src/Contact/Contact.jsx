@@ -1,10 +1,11 @@
 import React from 'react'
-import s from './Contact.module.css'
+import s from './Contact.module.scss'
 import sContainer from './../common/styles/Container.module.css'
 import {Button} from '../common/styles/components/Button/Button'
 import {Title} from '../common/styles/components/Title/Title'
 
-export const Contact = React.memo(() => {
+export const Contact = () => {
+
    return (
       <div className={s.contactBlock}>
          <div className={`${sContainer.container} ${s.contactContainer}`}>
@@ -26,4 +27,4 @@ export const Contact = React.memo(() => {
          </div>
       </div>
    )
-})
+}
