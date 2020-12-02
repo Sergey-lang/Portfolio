@@ -34,41 +34,46 @@
                   color: #717173;
                }
             }
-
-            textarea {
-               height: 150px;
-               resize: none;
-               font-family: 'Poppins', sans-serif;
-            }
+            input {
+               caret-color: #f9004d;
          }
 
-         .contactBtn {
+         textarea {
+            height: 150px;
+            resize: none;
+            font-family: 'Poppins', sans-serif;
+            caret-color: #f9004d;
+         }
+      }
+
+      .contactBtn {
+         border: 3px solid #f9004d;
+         background: #f9004d;
+         cursor: pointer;
+         max-width: 60%;
+         width: 100%;
+         height: 59px;
+         color: #fff;
+         font-size: 16px;
+         letter-spacing: 2px;
+         border-radius: 6px;
+         font-weight: 600;
+         transition: .3s;
+         text-transform: uppercase;
+
+         &:hover {
             border: 3px solid #f9004d;
-            background: #f9004d;
-            cursor: pointer;
-            max-width: 60%;
-            width: 100%;
-            height: 59px;
-            color: #fff;
-            font-size: 16px;
-            letter-spacing: 2px;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: .3s;
-            text-transform: uppercase;
+            box-shadow: 0 10px 15px 0 rgba(249, 0, 77, .1);
+            background: 0 0;
+            color: #f9004d;
+            transform: translateY(-5px);
+         }
 
-            &:hover {
-               border: 3px solid #f9004d;
-               box-shadow: 0 10px 15px 0 rgba(249, 0, 77, .1);
-               background: 0 0;
-               color: #f9004d;
-               transform: translateY(-5px);
-            }
-
-            @media screen and (max-width: 500px) {
-               max-width: 70%;
-            }
+         @media screen and (max-width: 500px) {
+            max-width: 70%;
          }
       }
    }
+}
+
 }

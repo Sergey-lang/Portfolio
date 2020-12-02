@@ -1,14 +1,17 @@
 .mainBlock {
    display: flex;
    align-items: center;
-   min-height: 800px;
+   height: 100vh;
 
    .greeting {
-      position: relative;
       min-width: 200px;
+      height: 100%;
       width: 100%;
       max-width: 70%;
       padding: 15px 0 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       .profession {
          font-size: 16px;
@@ -42,7 +45,7 @@
 
          @media screen and (max-width: 767px) {
             max-width: 430px;
-            font-size: 32px;
+            font-size: 37px;
             margin-bottom: 20px;
             line-height: 49px;
          }
@@ -50,7 +53,10 @@
 
       @media screen and (max-width: 900px) {
          max-width: 100%;
-         padding: 76px 0 0 0;
+      }
+      @media screen and (max-width: 767px) {
+         justify-content: flex-end;
+         padding: 0 0 10px 0;
       }
 
    }
