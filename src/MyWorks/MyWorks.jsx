@@ -3,10 +3,9 @@ import s from './MyWorks.module.scss'
 import sContainer from './../common/styles/Container.module.css'
 import {Work} from './Work/Work'
 import {Title} from '../common/styles/components/Title/Title'
-import one from '../common/assets/images/dp-big-portfolio-01.jpg';
-import two from '../common/assets/images/dp-big-portfolio-03.jpg';
-import three from '../common/assets/images/dp-big-portfolio-04.jpg';
-import four from '../common/assets/images/dp-big-portfolio-01.jpg';
+import one from '../common/assets/images/projects/dp-big-portfolio-01.jpg';
+import two from '../common/assets/images/projects/dp-big-portfolio-02.jpg';
+import three from '../common/assets/images/projects/dp-big-portfolio-03.jpg';
 
 export const MyWorks = () => {
 
@@ -14,16 +13,12 @@ export const MyWorks = () => {
       backgroundImage: `url(${one})`,
    }
 
-   const threeWork = {
+   const twoWork = {
       backgroundImage: `url(${two})`,
    }
 
-   const fourWork = {
+   const threeWork = {
       backgroundImage: `url("${three}")`,
-   }
-
-   const fiveWork = {
-      backgroundImage: `url("${four}")`,
    }
 
    return (
@@ -39,20 +34,14 @@ export const MyWorks = () => {
                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
                      }
                />
-               <Work style={threeWork}
+               <Work style={twoWork}
                      projectName={'Todo List'}
                      description={
                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
                      }
                />
-               <Work style={fourWork}
+               <Work style={threeWork}
                      projectName={'Simple Components'}
-                     description={
-                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
-                     }
-               />
-               <Work style={fiveWork}
-                     projectName={'In near future...'}
                      description={
                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
                      }

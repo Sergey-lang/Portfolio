@@ -1,6 +1,7 @@
 .mainBg {
    background-image: url("common/assets/images/me.jpg");
    background-size: cover;
+   background-position: center;
    background-repeat: no-repeat;
    z-index: -999;
 }

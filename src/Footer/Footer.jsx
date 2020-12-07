@@ -1,9 +1,9 @@
 import React from 'react'
 import s from './Footer.module.scss'
 import sContainer from './../common/styles/Container.module.css'
-import socialIn from './../common/assets/images/icons8-linkedin-2.svg'
-import socialVk from './../common/assets/images/icons8-vkontakte.svg'
-import socialInst from './../common/assets/images/icons8-instagram.svg'
+import socialIn from './../common/assets/images/footer/icons8-linkedin-2.svg'
+import socialVk from './../common/assets/images/footer/icons8-vkontakte.svg'
+import socialInst from './../common/assets/images/footer/icons8-instagram.svg'
 
 export const Footer = () => {
 
