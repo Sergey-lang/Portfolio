@@ -34,12 +34,12 @@
          }
 
          &:hover:before {
-            @include navStyle(scaleX(1), 50%);
+            @include navStyle(scaleX(1), 30%);
          }
 
          &.active:before {
             //@include position(absolute, $left: 0);
-            @include navStyle(scaleX(1), 50%);
+            @include navStyle(scaleX(1), 30%);
          }
       }
    }

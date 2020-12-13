@@ -7,7 +7,6 @@ import two from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-02
 import three from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-03.jpg'
 
 import s from './MyWorks.module.scss'
-import Fade from 'react-reveal/Fade'
 
 export const MyWorks = () => {
 
@@ -26,32 +25,40 @@ export const MyWorks = () => {
    return (
        <div className={s.worksBlock}>
           <div className={s.container} id='works'>
-             <Fade left>
-                <Title title={'My works'}
-                       titleDescription={'Check out my latest web software development portfolio projects.'}
-                       id='works'
+             <Title title={'My works'}
+                    titleDescription={'Check out my latest web software development portfolio projects.'}
+                    id='works'
+             />
+             <div className={s.works}>
+                <Work style={oneWork}
+                      link={"https://vk.com/19sergey_k"}
+                      projectName={'Social Network'}
+                      description={
+                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                      }
                 />
-                <div className={s.works}>
-                   <Work style={oneWork}
-                         projectName={'Social Network'}
-                         description={
-                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                         }
-                   />
-                   <Work style={twoWork}
-                         projectName={'Todo List'}
-                         description={
-                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
-                         }
-                   />
-                   <Work style={threeWork}
-                         projectName={'Simple Components'}
-                         description={
-                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
-                         }
-                   />
-                </div>
-             </Fade>
+                <Work style={twoWork}
+                      link={"https://vk.com/19sergey_k"}
+                      projectName={'Todo List'}
+                      description={
+                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
+                      }
+                />
+                <Work style={twoWork}
+                      link={"https://vk.com/19sergey_k"}
+                      projectName={'Pizza - shop'}
+                      description={
+                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
+                      }
+                />
+                <Work style={threeWork}
+                      link={"https://vk.com/19sergey_k"}
+                      projectName={'Simple Components'}
+                      description={
+                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
+                      }
+                />
+             </div>
           </div>
        </div>
    )

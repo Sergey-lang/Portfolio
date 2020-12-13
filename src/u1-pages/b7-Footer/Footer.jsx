@@ -17,35 +17,28 @@ export const Footer = () => {
                    <ul className={s.socialShare}>
                       <Fade bottom>
                          <li>
-                            <a href="#">
-                               <img src={socialIn} alt=""/>
-                            </a>
-                         </li>
-                      </Fade>
-                      <Fade bottom>
-                         <li>
-                            <a href="https://vk.com/19sergey_k">
+                            <a href="https://vk.com/19sergey_k" target="_blank">
                                <img src={socialVk} alt=""/>
                             </a>
                          </li>
                       </Fade>
                       <Fade bottom>
                          <li>
-                            <a href="https://www.instagram.com/?hl=ru">
+                            <a href="https://www.instagram.com/?hl=ru" target="_blank">
                                <img src={socialInst} alt=""/>
                             </a>
                          </li>
                       </Fade>
                       <Fade bottom>
                          <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/sergey-kuharyonok-702b111b7/" target="_blank">
                                <img src={socialIn} alt=""/>
                             </a>
                          </li>
                       </Fade>
                    </ul>
                 </div>
-                <p>© 2020. All rights reserved by Sergey</p>
+                <p>© 2021. All rights reserved by Sergey Kuharyonok</p>
              </div>
           </div>
        </footer>

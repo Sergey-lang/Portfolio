@@ -5,6 +5,7 @@
    background-repeat: no-repeat;
    background-position-y: 0px;
    z-index: -999;
+   background-attachment:fixed;
 }
 
 .particles {

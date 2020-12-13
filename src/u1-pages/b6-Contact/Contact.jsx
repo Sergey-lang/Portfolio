@@ -25,7 +25,7 @@ export const Contact = () => {
                               className={s.contactBtn}
                               newStyle
                               button
-                      />
+                      >Send message</Button>
                    </form>
                 </div>
              </Fade>
