@@ -2,16 +2,14 @@ import React from 'react'
 import {Title} from '../../u0-common/u0.2-components/Title/Title'
 import {Button} from '../../u0-common/u0.2-components/Button/Button'
 
-import sContainer from './../../u0-common/u0.2-components/Container.module.css'
-
 import s from './Contact.module.scss'
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade'
 
 export const Contact = () => {
 
    return (
        <div className={s.contactBlock}>
-          <div className={`${sContainer.container} ${s.contactContainer}`} id='contact'>
+          <div className={s.container} id='contact'>
              <Fade clear>
                 <Title title={'Contact'}
                        titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus?'}

@@ -1,23 +1,22 @@
+@import '../../u0.3-styles/mixins';
+
 .defaultBtn {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   @include display(flex, center, center);
    outline: none;
+   cursor: pointer;
 }
 
 .buttonWrapper {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   @include display(flex, center, center);
    height: 40px;
    border-radius: 4px;
    font-size: 14px;
    letter-spacing: .2px;
    transition: .3s;
    padding: 0 25px;
+   cursor: pointer;
 
    &:hover {
-      cursor: pointer;
       transform: translateY(-3px);
    }
 }

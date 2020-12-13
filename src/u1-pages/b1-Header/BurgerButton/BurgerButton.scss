@@ -1,3 +1,5 @@
+@import '../../../u0-common/u0.3-styles/mixins';
+
 .navIcon {
    width: 35px;
    height: 25px;
@@ -15,13 +17,12 @@
 
    span {
       display: block;
-      position: absolute;
+      @include position(absolute, $left: 0);
       height: 5px;
       width: 100%;
       background: #cdc9c7;
       border-radius: 9px;
       opacity: 1;
-      left: 0;
       -webkit-transform: rotate(0deg);
       -moz-transform: rotate(0deg);
       -o-transform: rotate(0deg);

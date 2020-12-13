@@ -1,37 +1,32 @@
+@import '../../u0-common/u0.3-styles/mixins';
+
 .footerWrapper {
    display: flex;
    height: auto;
    padding: 20px 0px;
    background-color: var(--first-bg-color);
 
-   .footerContainer {
-      display: flex;
-      flex-direction: column;
+   .container {
+      @include container();
+      @include display(flex, $f-der: column);
 
       .wrapper {
-         display: flex;
-         flex-direction: column;
-         justify-content: space-between;
-         align-items: center;
-         flex-wrap: wrap;
+         @include display(flex, space-between, center, wrap, $f-der: column);
 
          .innerText {
             text-align: center;
 
             .socialShare {
+               @include display(flex, center);
                margin: 0;
                padding: 0;
                list-style: none;
-               display: flex;
-               justify-content: center;
 
                li {
                   margin: 6px 5px;
 
                   a {
-                     display: flex;
-                     justify-content: center;
-                     align-items: center;
+                     @include display(flex, center, center);
                      width: 50px;
                      height: 50px;
                      font-size: 16px;
@@ -61,12 +56,12 @@
             text-align: center;
             padding: 10px;
             @media screen and (max-width: 400px) {
+               @include display(flex, $wrap: wrap);
                font-size: 16px;
-               display: flex;
-               flex-wrap: wrap;
             }
          }
       }
+
    }
 
    @media screen and (max-width: 400px) {

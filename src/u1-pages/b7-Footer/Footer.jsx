@@ -1,6 +1,5 @@
 import React from 'react'
 
-import sContainer from './../../u0-common/u0.2-components/Container.module.css'
 import socialIn from './../../u0-common/u0.1-assets/images/footer/icons8-linkedin-2.svg'
 import socialVk from './../../u0-common/u0.1-assets/images/footer/icons8-vkontakte.svg'
 import socialInst from './../../u0-common/u0.1-assets/images/footer/icons8-instagram.svg'
@@ -11,8 +10,8 @@ import Fade from 'react-reveal/Fade'
 export const Footer = () => {
 
    return (
-       <div className={s.footerWrapper}>
-          <div className={`${sContainer.container} ${s.footerContainer}`}>
+       <footer className={s.footerWrapper}>
+          <div className={s.container}>
              <div className={s.wrapper}>
                 <div className={s.innerText}>
                    <ul className={s.socialShare}>
@@ -49,6 +48,6 @@ export const Footer = () => {
                 <p>© 2020. All rights reserved by Sergey</p>
              </div>
           </div>
-       </div>
+       </footer>
    )
 }

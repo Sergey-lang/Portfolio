@@ -1,3 +1,5 @@
+@import '../../../u0-common/u0.3-styles/mixins';
+
 .skillItem {
    display: flex;
    padding: 0 15px;
@@ -7,21 +9,17 @@
    position: relative;
 
    .skillBlock {
-      display: flex;
-      align-items: flex-start;
+      @include display(flex,$align-items:flex-start,$f-der:column);
       padding: 35px 45px;
       border-radius: 10px;
-      flex-direction: column;
       background-color: var(--skills-card-background-color);
       position: relative;
       cursor: pointer;
       transition: all .3s cubic-bezier(.645, .045, .355, 1);
 
       &:before {
-         position: absolute;
+         @include position(absolute,0,$left:0);
          content: "";
-         left: 0;
-         top: 0;
          background-image: linear-gradient(to right, #f61b10, #ef0963);
          width: 100%;
          height: 100%;
@@ -47,9 +45,7 @@
          position: relative;
 
          .icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include display(flex,center,center);
             width: 60px;
             height: 60px;
             background-color: #efefed;

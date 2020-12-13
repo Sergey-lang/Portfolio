@@ -2,8 +2,6 @@ import React from 'react'
 import {Work} from './Work/Work'
 import {Title} from '../../u0-common/u0.2-components/Title/Title'
 
-import sContainer from '../../u0-common/u0.2-components/Container.module.css'
-
 import one from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-01.jpg'
 import two from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-02.jpg'
 import three from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-03.jpg'
@@ -27,7 +25,7 @@ export const MyWorks = () => {
 
    return (
        <div className={s.worksBlock}>
-          <div className={`${sContainer.container} ${s.worksContainer}`} id='works'>
+          <div className={s.container} id='works'>
              <Fade left>
                 <Title title={'My works'}
                        titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing.'}

@@ -6,7 +6,7 @@ import s from './Work.module.scss'
 export const Work = ({projectName, description, ...props}) => {
 
    return (
-       <div className={s.workItem}>
+       <article className={s.workItem}>
           <div className={s.workBlock}>
              <div className={s.projectImg} style={props.style}>
                 <Button className={s.projectBtn} name={'Watch'}/>
@@ -16,6 +16,6 @@ export const Work = ({projectName, description, ...props}) => {
                 <p>{description}</p>
              </div>
           </div>
-       </div>
+       </article>
    )
 }

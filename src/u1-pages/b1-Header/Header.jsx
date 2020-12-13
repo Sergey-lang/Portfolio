@@ -5,7 +5,6 @@ import {BurgerNav} from './Navigation/BurgerNav/BurgerNav'
 import {Button} from '../../u0-common/u0.2-components/Button/Button'
 import {BurgerButton} from './BurgerButton/BurgerButton'
 
-import sContainer from '../../u0-common/u0.2-components/Container.module.css'
 import s from './Header.module.scss'
 import Fade from 'react-reveal/Fade'
 
@@ -17,8 +16,8 @@ export const Header = () => {
    const finalStyle = show ? `${s.fullOverlay} ${s.activeFullOverlay}` : s.fullOverlay
 
    return (
-       <div className={s.headerArea}>
-          <div className={sContainer.container}>
+       <section className={s.headerArea}>
+          <nav className={s.container}>
              <Fade clear>
                 <div className={s.headerWrapper}>
                    <div className={s.headerLeft}>
@@ -38,7 +37,7 @@ export const Header = () => {
                    </div>
                 </div>
              </Fade>
-          </div>
-       </div>
+          </nav>
+       </section>
    )
 }

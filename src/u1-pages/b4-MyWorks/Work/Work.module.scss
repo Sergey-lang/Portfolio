@@ -1,6 +1,7 @@
+@import '../../../u0-common/u0.3-styles/mixins';
+
 .workItem {
-   display: flex;
-   flex-direction: column;
+   @include display(flex,$f-der:column);
    max-width: 33.333333%;
    margin-top: 30px;
    width: 100%;
@@ -8,16 +9,12 @@
    padding: 0 15px;
 
    .workBlock {
-      display: flex;
-      align-items: flex-start;
+      @include display(flex,$align-items:flex-start,$f-der:column);
       border-radius: 10px;
-      flex-direction: column;
       background-color: var(--work-card-background-color);
 
       .projectImg {
-         display: flex;
-         align-items: center;
-         justify-content: center;
+         @include display(flex,center,center);
          background-size: cover;
          background-position: center;
          width: 100%;
@@ -38,10 +35,8 @@
       }
 
       .description {
+         @include display(flex,flex-start,$f-der:column);
          padding: 60px 45px 60px 45px;
-         display: flex;
-         flex-direction: column;
-         justify-content: flex-start;
 
          h3, p {
             margin: 0;

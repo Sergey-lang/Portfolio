@@ -1,15 +1,13 @@
+@import '../../../../u0-common/u0.3-styles/mixins';
+
 .nav {
    display: block;
-   justify-content: space-evenly;
    width: 100%;
-   align-items: center;
 
    .mainMenu {
+      @include display(flex, flex-end, $wrap: wrap);
       padding: 0;
       margin: 0;
-      display: flex;
-      justify-content: flex-end;
-      flex-wrap: wrap;
 
       .menuItem {
          position: relative;
@@ -42,9 +40,8 @@
             }
 
             &:before {
-               position: absolute;
+               @include position(absolute, $left: 0);
                content: "";
-               left: 0;
                height: 3px;
                background: #f9004d;
                transition: .3s;

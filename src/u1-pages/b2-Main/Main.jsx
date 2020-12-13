@@ -1,7 +1,5 @@
 import React from 'react'
 
-import sContainer from '../../u0-common/u0.2-components/Container.module.css'
-
 import s from './Main.module.scss'
 import Fade from 'react-reveal/Fade'
 import ReactTypingEffect from 'react-typing-effect'
@@ -9,8 +7,8 @@ import ReactTypingEffect from 'react-typing-effect'
 export const Main = () => {
 
    return (
-       <div className={s.mainBlock} id='main'>
-          <div className={sContainer.container}>
+       <section className={s.mainBlock} id='main'>
+          <article className={s.container}>
              <Fade clear>
                 <div className={s.greeting}>
                 <span className={s.profession}>
@@ -24,7 +22,7 @@ export const Main = () => {
                       Welcome to my World.</h1>
                 </div>
              </Fade>
-          </div>
-       </div>
+          </article>
+       </section>
    )
 }

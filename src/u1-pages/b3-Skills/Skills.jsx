@@ -1,6 +1,5 @@
 import React from 'react'
 
-import sContainer from '../../u0-common/u0.2-components/Container.module.css'
 import {Skill} from './Skill/Skill'
 import {Title} from '../../u0-common/u0.2-components/Title/Title'
 
@@ -21,7 +20,7 @@ export const Skills = () => {
 
    return (
        <div className={s.skillsBlock}>
-          <div className={`${sContainer.container} ${s.skillsContainer}`} id='skills'>
+          <div className={s.container} id='skills'>
              <Fade left>
                 <Title title={'Skills'}
                        titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores harum officia tempore!'}
