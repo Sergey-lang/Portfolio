@@ -12,7 +12,9 @@ export const Contact = () => {
           <div className={s.container} id='contact'>
              <Fade clear>
                 <Title title={'Contact'}
-                       titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus?'}
+                       titleDescription={`If you wanna get in touch, talk to me about a project collaboration or just say hi,
+                       fill up the awesome form below or send an email to 
+                       sergei.kuharyonok@yandex.by and let's talk.`}
                 />
                 <div className={s.formWrapper}>
                    <form className={s.contactForm}>

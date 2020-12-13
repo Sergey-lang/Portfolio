@@ -39,3 +39,14 @@ $align-items:none,$wrap:nowrap,$f-der:none) {
    }
 }
 
+@mixin navStyle($transform:scaleX(0),$width:100%) {
+   content: "";
+   height: 3px;
+   background: #f9004d;
+   transition: .3s;
+   bottom: 0;
+   width: $width;
+   transform: $transform;
+   transform-origin: left;
+}
+

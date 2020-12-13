@@ -14,6 +14,7 @@
          display: list-item;
          letter-spacing: 0.3px;
          margin: 0 20px;
+         cursor: pointer;
 
          &:first-of-type {
             margin-left: 0
@@ -41,14 +42,12 @@
 
             &:before {
                @include position(absolute, $left: 0);
-               content: "";
-               height: 3px;
-               background: #f9004d;
-               transition: .3s;
-               bottom: 0;
-               width: 100%;
-               transform: scaleX(0);
-               transform-origin: left;
+               @include navStyle(scaleX(0));
+            }
+
+            &.active:before {
+               @include position(absolute, $left: 0);
+               @include navStyle(scaleX(1));
             }
          }
       }

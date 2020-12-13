@@ -23,7 +23,7 @@ export const Nav = () => {
                          to="skills"
                          spy={true}
                          smooth={true}
-                         offset={0}
+                         offset={-71}
                          duration={500}
                    >Skills</Link>
                 </li>
@@ -32,7 +32,7 @@ export const Nav = () => {
                          to="works"
                          spy={true}
                          smooth={true}
-                         offset={0}
+                         offset={-71}
                          duration={500}
                    >Projects</Link>
                 </li>
@@ -41,7 +41,7 @@ export const Nav = () => {
                          to="contact"
                          spy={true}
                          smooth={true}
-                         offset={0}
+                         offset={-71}
                          duration={500}
                    >Contacts</Link>
                 </li>

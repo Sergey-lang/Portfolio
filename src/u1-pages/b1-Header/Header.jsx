@@ -8,7 +8,6 @@ import {BurgerButton} from './BurgerButton/BurgerButton'
 import s from './Header.module.scss'
 import Fade from 'react-reveal/Fade'
 
-
 export const Header = () => {
 
    let [show, setShow] = useState(false)
@@ -17,27 +16,25 @@ export const Header = () => {
 
    return (
        <section className={s.headerArea}>
-          <nav className={s.container}>
-             <Fade clear>
-                <div className={s.headerWrapper}>
-                   <div className={s.headerLeft}>
-                      <Nav/>
+          <Fade clear>
+             <div className={s.headerWrapper}>
+                <div className={s.headerLeft}>
+                   <Nav/>
+                </div>
+                <div className={s.headerRight}>
+                   <div className={finalStyle}></div>
+                   <div className={s.headerBtnWrapper}>
+                      <Button name={`LET'S TALK`} className={s.headerBtn} newStyle={true}/>
                    </div>
-                   <div className={s.headerRight}>
-                      <div className={finalStyle}></div>
-                      <div className={s.headerBtnWrapper}>
-                         <Button name={`LET'S TALK`} className={s.headerBtn} newStyle={true}/>
-                      </div>
-                      <div className={s.hamburgerMenu}>
+                   <div className={s.hamburgerMenu}>
                      <span className={s.menuTrigger}>
                         <BurgerButton changeState={setShow} state={show}/>
                      </span>
-                         <BurgerNav state={show} setState={setShow}/>
-                      </div>
+                      <BurgerNav state={show} setState={setShow}/>
                    </div>
                 </div>
-             </Fade>
-          </nav>
+             </div>
+          </Fade>
        </section>
    )
 }

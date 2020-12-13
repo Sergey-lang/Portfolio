@@ -30,7 +30,7 @@ function App() {
        <div className="App">
           <ScrollToUp/>
           <div className='mainBg'>
-             {/*<Particles className='particles' params={params}/>*/}
+             <Particles className='particles' params={params}/>
              <Header/>
              <Main/>
           </div>

@@ -28,7 +28,7 @@ export const MyWorks = () => {
           <div className={s.container} id='works'>
              <Fade left>
                 <Title title={'My works'}
-                       titleDescription={'Lorem ipsum dolor sit amet, consectetur adipisicing.'}
+                       titleDescription={'Check out my latest web software development portfolio projects.'}
                        id='works'
                 />
                 <div className={s.works}>
