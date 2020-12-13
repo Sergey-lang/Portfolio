@@ -1,0 +1,73 @@
+.mainBg {
+   background-image: url("../u0-common/u0.1-assets/images/me.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   z-index: -999;
+}
+
+.particles {
+   position: absolute;
+   top:0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   opacity: 0.4;
+}
+
+.mainBg:after {
+   display: none;
+   background: #000;
+   z-index: -1;
+   position: absolute;
+   content: "";
+   height: 100%;
+   width: 100%;
+   opacity: .5;
+   left: 0;
+   top: 0;
+   background-size: cover;
+}
+
+@media (max-width: 1199px) {
+   .contactBtn {
+      max-width: 70%;
+   }
+
+   .mainBg:after {
+      display: block;
+   }
+}
+
+@media (max-width: 982px) {
+   .mainBg {
+      background-position-x: 20%;
+   }
+}
+
+@media (max-width: 767px) {
+   .mainBg {
+      background-position-x: 75%;
+      background-size: cover;
+   }
+
+   .mainBg:after {
+      display: block;
+   }
+
+   .contactBtn {
+      max-width: 70%;
+   }
+
+   .personalPhoto {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+   }
+
+
+}
+
+
+
+

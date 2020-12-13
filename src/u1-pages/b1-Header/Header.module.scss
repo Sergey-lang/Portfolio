@@ -1,0 +1,111 @@
+@import '../../u0-common/u0.3-styles/mixins';
+
+.headerArea {
+   display: flex;
+   height: 80px;
+   @include position(relative,0,0,0);
+   width: 100%;
+   z-index: 2;
+
+   .headerWrapper {
+      @include flex(flex,space-between);
+      @include padding(30px 0);
+      width: 100%;
+      flex-wrap: wrap;
+
+      .headerLeft {
+         display: flex;
+         align-items: center;
+         @media screen and (max-width: 991px) {
+            display: none;
+         }
+      }
+
+      .headerRight {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         justify-content: flex-end;
+         width: auto;
+
+         .fullOverlay {
+            display: none;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, .7);
+            transition: .3s;
+         }
+
+         .activeFullOverlay {
+            display: block;
+         }
+
+         .headerBtnWrapper {
+            margin-left: 50px;
+
+            .headerBtn {
+               color: white;
+               border: 3px solid rgba(255, 255, 255, .3);
+               padding: 0 25px;
+               height: 46px;
+               border-radius: 6px;
+               font-size: 14px;
+               position: relative;
+               z-index: 2;
+               letter-spacing: 1px;
+               font-weight: 500;
+               transition: all .3s cubic-bezier(.645, .045, .355, 1);
+
+               &:hover {
+                  background-color: #f9004d;
+                  border: 3px solid #f9004d;
+                  transform: translateY(-3px);
+               }
+            }
+
+            @media screen and (max-width: 1199px) {
+               margin-left: 10px;
+            }
+            @media screen and (max-width: 767px) {
+               display: none;
+            }
+         }
+
+         .hamburgerMenu {
+            padding-left: 20px;
+            display: none;
+            justify-content: flex-end;
+            width: auto;
+
+            .menuTrigger {
+               cursor: pointer;
+
+               img {
+                  width: 30px;
+                  position: relative;
+                  z-index: 100;
+               }
+            }
+
+            @media screen and (max-width: 991px) {
+               display: block;
+            }
+         }
+      }
+
+      @media screen and (max-width: 991px) {
+         justify-content: flex-end;
+         padding: 15px 0;
+      }
+      @media screen and (max-width: 767px) {
+         justify-content: flex-end;
+      }
+   }
+
+   @media screen and (max-width: 991px) {
+      position: fixed;
+   }
+}
