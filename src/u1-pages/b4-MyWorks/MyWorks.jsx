@@ -3,8 +3,7 @@ import {Work} from './Work/Work'
 import {Title} from '../../u0-common/u0.2-components/Title/Title'
 
 import one from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-01.jpg'
-import two from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-02.jpg'
-import three from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-03.jpg'
+import pizzaShop from '../../u0-common/u0.1-assets/images/projects/Pizza-shop.jpg'
 
 import s from './MyWorks.module.scss'
 
@@ -14,13 +13,10 @@ export const MyWorks = () => {
       backgroundImage: `url(${one})`,
    }
 
-   const twoWork = {
-      backgroundImage: `url(${two})`,
+   const pizzas = {
+      backgroundImage: `url(${pizzaShop})`,
    }
 
-   const threeWork = {
-      backgroundImage: `url("${three}")`,
-   }
 
    return (
        <div className={s.worksBlock}>
@@ -37,21 +33,21 @@ export const MyWorks = () => {
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
                       }
                 />
-                <Work style={twoWork}
+                <Work style={oneWork}
                       link={"https://vk.com/19sergey_k"}
                       projectName={'Todo List'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
                       }
                 />
-                <Work style={twoWork}
-                      link={"https://vk.com/19sergey_k"}
+                <Work style={pizzas}
+                      link={"https://react-pizza-one.herokuapp.com/#/"}
                       projectName={'Pizza - shop'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
                       }
                 />
-                <Work style={threeWork}
+                <Work style={oneWork}
                       link={"https://vk.com/19sergey_k"}
                       projectName={'Simple Components'}
                       description={

@@ -15,6 +15,7 @@
       background-color: var(--skills-card-background-color);
       position: relative;
       cursor: pointer;
+      width: 100%;
       transition: all .3s cubic-bezier(.645, .045, .355, 1);
 
       &:before {
