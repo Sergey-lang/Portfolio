@@ -1,39 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6162c4283cf2a12174c874b4dd538a5b",
+    "revision": "0386bd14c248232ccdd3c9cfef42ffae",
     "url": "/My_portfolio/index.html"
   },
   {
-    "revision": "f166cb0440cebac23928",
-    "url": "/My_portfolio/static/css/main.8b68a574.chunk.css"
+    "revision": "f6f589c42433f3dc3ef4",
+    "url": "/My_portfolio/static/css/main.b13eaf64.chunk.css"
   },
   {
-    "revision": "5cb3e3554d55886ad291",
-    "url": "/My_portfolio/static/js/2.d0839f50.chunk.js"
+    "revision": "b34d246d164cea29e915",
+    "url": "/My_portfolio/static/js/2.8627f00a.chunk.js"
   },
   {
     "revision": "ce9b44fea27d50c584e74b2bee7fec7e",
-    "url": "/My_portfolio/static/js/2.d0839f50.chunk.js.LICENSE.txt"
+    "url": "/My_portfolio/static/js/2.8627f00a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f166cb0440cebac23928",
-    "url": "/My_portfolio/static/js/main.4d80a069.chunk.js"
+    "revision": "f6f589c42433f3dc3ef4",
+    "url": "/My_portfolio/static/js/main.fe82360c.chunk.js"
   },
   {
     "revision": "a865e1d0b6f43199bd26",
     "url": "/My_portfolio/static/js/runtime-main.04439d10.js"
   },
   {
+    "revision": "41805bbbad101288fb18872fb81f8d84",
+    "url": "/My_portfolio/static/media/Pizza-shop.41805bbb.jpg"
+  },
+  {
     "revision": "7e95140edf71b50628998ffe02f524c3",
     "url": "/My_portfolio/static/media/dp-big-portfolio-01.7e95140e.jpg"
-  },
-  {
-    "revision": "973f7382463623f153d83366dcfecb6d",
-    "url": "/My_portfolio/static/media/dp-big-portfolio-02.973f7382.jpg"
-  },
-  {
-    "revision": "4a4f4f84e1c8fb0ba35e57215d9be8f7",
-    "url": "/My_portfolio/static/media/dp-big-portfolio-03.4a4f4f84.jpg"
   },
   {
     "revision": "0305f7621019fe8f53642992a457291d",
@@ -68,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_portfolio/static/media/icons8-vkontakte.322116a3.svg"
   },
   {
-    "revision": "6ddf43998cd46af7bc0c782ef2f07f32",
-    "url": "/My_portfolio/static/media/me.6ddf4399.jpg"
+    "revision": "ff183881ff61921be4dbe78ef4a08b19",
+    "url": "/My_portfolio/static/media/main-bg.ff183881.jpg"
   },
   {
     "revision": "2c0ef39282e8c27ebbfc9159f2c395dd",
