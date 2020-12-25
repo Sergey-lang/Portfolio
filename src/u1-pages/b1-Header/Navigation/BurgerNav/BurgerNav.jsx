@@ -4,6 +4,10 @@ import {Link} from 'react-scroll'
 
 export const BurgerNav = (props) => {
 
+   const onClickHandler = () => {
+      props.setState(false)
+   }
+
    const Show = {
       right: 0
    }
@@ -17,6 +21,7 @@ export const BurgerNav = (props) => {
            style={props.state ? Show : Hide}>
           <li className={s.menuItem}>
              <Link activeClass={s.active}
+                   onClick={onClickHandler}
                    to="main"
                    spy={true}
                    smooth={true}
@@ -26,6 +31,7 @@ export const BurgerNav = (props) => {
           </li>
           <li className={s.menuItem}>
              <Link activeClass={s.active}
+                   onClick={onClickHandler}
                    to="skills"
                    spy={true}
                    smooth={true}
@@ -35,6 +41,7 @@ export const BurgerNav = (props) => {
           </li>
           <li className={s.menuItem}>
              <Link activeClass={s.active}
+                   onClick={onClickHandler}
                    to="works"
                    spy={true}
                    smooth={true}
@@ -44,6 +51,7 @@ export const BurgerNav = (props) => {
           </li>
           <li className={s.menuItem}>
              <Link activeClass={s.active}
+                   onClick={onClickHandler}
                    to="contact"
                    spy={true}
                    smooth={true}

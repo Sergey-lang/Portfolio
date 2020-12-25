@@ -4,7 +4,7 @@
    display: block;
    @include position(fixed, -18px, 99);
    background: #101010;
-   width: 61vw;
+   width: 40vw;
    height: 100vh;
    z-index: 99;
    -webkit-transition: all .3s cubic-bezier(.77, .2, .05, 1);
@@ -39,7 +39,7 @@
 
          &.active:before {
             //@include position(absolute, $left: 0);
-            @include navStyle(scaleX(1), 30%);
+            @include navStyle(scaleX(1), 100%);
          }
       }
    }

@@ -1,8 +1,8 @@
 import React from 'react'
-
-import s from './Main.module.scss'
 import Fade from 'react-reveal/Fade'
 import ReactTypingEffect from 'react-typing-effect'
+
+import s from './Main.module.scss'
 
 export const Main = () => {
 

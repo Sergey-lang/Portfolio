@@ -10,9 +10,9 @@ import Fade from 'react-reveal/Fade'
 
 export const Header = () => {
 
-   let [show, setShow] = useState(false)
+   let [visible, setVisible] = useState(false)
 
-   const finalStyle = show ? `${s.fullOverlay} ${s.activeFullOverlay}` : s.fullOverlay
+   const finalStyle = visible ? `${s.fullOverlay} ${s.activeFullOverlay}` : s.fullOverlay
 
    return (
        <section className={s.headerArea}>
@@ -28,9 +28,9 @@ export const Header = () => {
                    </div>
                    <div className={s.hamburgerMenu}>
                      <span className={s.menuTrigger}>
-                        <BurgerButton changeState={setShow} state={show}/>
+                        <BurgerButton changeState={setVisible} state={visible}/>
                      </span>
-                      <BurgerNav state={show} setState={setShow}/>
+                      <BurgerNav state={visible} setState={setVisible}/>
                    </div>
                 </div>
              </div>
