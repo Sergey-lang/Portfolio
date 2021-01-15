@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c20e31f1520f580c22cb1df542b58188",
+    "revision": "84f8186b1fea096d547587f973e959e5",
     "url": "/My_portfolio/index.html"
   },
   {
-    "revision": "f432e681507c20400972",
-    "url": "/My_portfolio/static/css/main.5be0e5f6.chunk.css"
+    "revision": "38fc7d84556ef14d7317",
+    "url": "/My_portfolio/static/css/main.50058336.chunk.css"
   },
   {
-    "revision": "b34d246d164cea29e915",
-    "url": "/My_portfolio/static/js/2.8627f00a.chunk.js"
+    "revision": "0d0cbf2c21059b0e3e78",
+    "url": "/My_portfolio/static/js/2.b8f8f0c0.chunk.js"
   },
   {
     "revision": "ce9b44fea27d50c584e74b2bee7fec7e",
-    "url": "/My_portfolio/static/js/2.8627f00a.chunk.js.LICENSE.txt"
+    "url": "/My_portfolio/static/js/2.b8f8f0c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f432e681507c20400972",
-    "url": "/My_portfolio/static/js/main.8b0653b5.chunk.js"
+    "revision": "38fc7d84556ef14d7317",
+    "url": "/My_portfolio/static/js/main.159972cb.chunk.js"
   },
   {
     "revision": "a865e1d0b6f43199bd26",
@@ -28,20 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_portfolio/static/media/Pizza-shop.41805bbb.jpg"
   },
   {
+    "revision": "aa5d0c3ebca9515d40e4432a3c131d70",
+    "url": "/My_portfolio/static/media/Social.aa5d0c3e.jpg"
+  },
+  {
     "revision": "7e95140edf71b50628998ffe02f524c3",
     "url": "/My_portfolio/static/media/dp-big-portfolio-01.7e95140e.jpg"
   },
   {
-    "revision": "0305f7621019fe8f53642992a457291d",
-    "url": "/My_portfolio/static/media/icons8-instagram.0305f762.svg"
+    "revision": "66aa0787d7e89105ec36d4c259df1887",
+    "url": "/My_portfolio/static/media/icons8-instagram.66aa0787.svg"
   },
   {
     "revision": "f6967c81822f43ac6ae2fbd1b915c17e",
     "url": "/My_portfolio/static/media/icons8-javascript.f6967c81.svg"
   },
   {
-    "revision": "2d41386957180c40c78890615a83941b",
-    "url": "/My_portfolio/static/media/icons8-linkedin-2.2d413869.svg"
+    "revision": "aafc41f6cdfa8e48b7e9844fe3f0a007",
+    "url": "/My_portfolio/static/media/icons8-linkedin-2.aafc41f6.svg"
   },
   {
     "revision": "d4a8ef063a99a8764cd0e1f793785b8c",
@@ -60,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_portfolio/static/media/icons8-typescript.265f3327.svg"
   },
   {
-    "revision": "322116a37b53ebfded20819bf4484902",
-    "url": "/My_portfolio/static/media/icons8-vkontakte.322116a3.svg"
+    "revision": "03b8a63c20f00a2d9909c2104660fa79",
+    "url": "/My_portfolio/static/media/icons8-vkontakte.03b8a63c.svg"
   },
   {
     "revision": "ff183881ff61921be4dbe78ef4a08b19",
