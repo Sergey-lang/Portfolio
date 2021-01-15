@@ -4,6 +4,7 @@ import {Title} from '../../u0-common/u0.2-components/Title/Title'
 
 import one from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-01.jpg'
 import pizzaShop from '../../u0-common/u0.1-assets/images/projects/Pizza-shop.jpg'
+import socialNetwork from '../../u0-common/u0.1-assets/images/projects/Social.jpg'
 
 import s from './MyWorks.module.scss'
 
@@ -17,6 +18,10 @@ export const MyWorks = () => {
       backgroundImage: `url(${pizzaShop})`,
    }
 
+    const social = {
+        backgroundImage: `url(${socialNetwork})`,
+    }
+
 
    return (
        <div className={s.worksBlock}>
@@ -26,15 +31,15 @@ export const MyWorks = () => {
                     id='works'
              />
              <div className={s.works}>
-                <Work style={oneWork}
-                      link={"https://vk.com/19sergey_k"}
+                <Work style={social}
+                      link={"https://sergey-lang.github.io/Social-TypeScript/#/profile"}
                       projectName={'Social Network'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
                       }
                 />
                 <Work style={oneWork}
-                      link={"https://vk.com/19sergey_k"}
+                      link={"https://github.com/Sergey-lang/Todo-list"}
                       projectName={'Todo List'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
@@ -48,8 +53,8 @@ export const MyWorks = () => {
                       }
                 />
                 <Work style={oneWork}
-                      link={"https://vk.com/19sergey_k"}
-                      projectName={'Simple Components'}
+                      link={"https://sergey-lang.github.io/Friday-2021/#/"}
+                      projectName={'Cards'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
                       }
