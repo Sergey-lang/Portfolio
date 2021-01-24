@@ -22,7 +22,6 @@ export const MyWorks = () => {
         backgroundImage: `url(${socialNetwork})`,
     }
 
-
    return (
        <div className={s.worksBlock}>
           <div className={s.container} id='works'>
@@ -33,13 +32,15 @@ export const MyWorks = () => {
              <div className={s.works}>
                 <Work style={social}
                       link={"https://sergey-lang.github.io/Social-TypeScript/#/profile"}
+                      repLink={'https://github.com/Sergey-lang/Social-TypeScript'}
                       projectName={'Social Network'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
                       }
                 />
                 <Work style={oneWork}
-                      link={"https://github.com/Sergey-lang/Todo-list"}
+                      link={"https://sergey-lang.github.io/Todo-list/#/"}
+                      repLink={'https://github.com/Sergey-lang/Todo-list'}
                       projectName={'Todo List'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
@@ -47,16 +48,10 @@ export const MyWorks = () => {
                 />
                 <Work style={pizzas}
                       link={"https://react-pizza-one.herokuapp.com/#/"}
+                      repLink={'https://github.com/Sergey-lang/React-pizza'}
                       projectName={'Pizza - shop'}
                       description={
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
-                      }
-                />
-                <Work style={oneWork}
-                      link={"https://sergey-lang.github.io/Friday-2021/#/"}
-                      projectName={'Cards'}
-                      description={
-                         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus.'
                       }
                 />
              </div>
