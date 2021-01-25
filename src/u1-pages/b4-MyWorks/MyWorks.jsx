@@ -5,6 +5,7 @@ import {Title} from '../../u0-common/u0.2-components/Title/Title'
 import one from '../../u0-common/u0.1-assets/images/projects/dp-big-portfolio-01.jpg'
 import pizzaShop from '../../u0-common/u0.1-assets/images/projects/Pizza-shop.jpg'
 import socialNetwork from '../../u0-common/u0.1-assets/images/projects/Social.jpg'
+import simpleComponents from '../../u0-common/u0.1-assets/images/projects/Component.jpg'
 
 import s from './MyWorks.module.scss'
 
@@ -20,6 +21,10 @@ export const MyWorks = () => {
 
     const social = {
         backgroundImage: `url(${socialNetwork})`,
+    }
+
+    const components = {
+        backgroundImage: `url(${simpleComponents})`,
     }
 
    return (
@@ -54,6 +59,14 @@ export const MyWorks = () => {
                          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
                       }
                 />
+                 <Work style={components}
+                       link={"https://sergey-lang.github.io/Simple-React-HW/#/pre-junior"}
+                       repLink={'https://github.com/Sergey-lang/Simple-React-HW'}
+                       projectName={'Components'}
+                       description={
+                           'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur delectus, dignissimos dolor.'
+                       }
+                 />
              </div>
           </div>
        </div>
