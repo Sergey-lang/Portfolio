@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1870786c2f607a75d9faeb3584c036c4",
+    "revision": "46b17ff90c4c2979724d4de4c4f6fd0e",
     "url": "/My_portfolio/index.html"
   },
   {
-    "revision": "5681ea1dcea2687c60aa",
-    "url": "/My_portfolio/static/css/main.c9d10f5d.chunk.css"
+    "revision": "3670db009bdead29d106",
+    "url": "/My_portfolio/static/css/main.455e0661.chunk.css"
   },
   {
-    "revision": "8c44c56e25822c96fe83",
-    "url": "/My_portfolio/static/js/2.6bbf2e84.chunk.js"
+    "revision": "1f0ffadc5b9193eefc1b",
+    "url": "/My_portfolio/static/js/2.a36fc69d.chunk.js"
   },
   {
-    "revision": "ce9b44fea27d50c584e74b2bee7fec7e",
-    "url": "/My_portfolio/static/js/2.6bbf2e84.chunk.js.LICENSE.txt"
+    "revision": "90302810bebdd0a23ab725fa85eb1ba2",
+    "url": "/My_portfolio/static/js/2.a36fc69d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5681ea1dcea2687c60aa",
-    "url": "/My_portfolio/static/js/main.66e942ec.chunk.js"
+    "revision": "3670db009bdead29d106",
+    "url": "/My_portfolio/static/js/main.9f2227bb.chunk.js"
   },
   {
     "revision": "a865e1d0b6f43199bd26",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_portfolio/static/media/icons8-vkontakte.03b8a63c.svg"
   },
   {
-    "revision": "ff183881ff61921be4dbe78ef4a08b19",
-    "url": "/My_portfolio/static/media/main-bg.ff183881.jpg"
+    "revision": "cd9cc5045c1518ed9aa73c8d2ba9a8b9",
+    "url": "/My_portfolio/static/media/main-bg.cd9cc504.jpg"
   },
   {
     "revision": "2c0ef39282e8c27ebbfc9159f2c395dd",
