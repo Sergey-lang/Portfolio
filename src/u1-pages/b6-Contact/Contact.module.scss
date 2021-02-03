@@ -2,7 +2,7 @@
 
 .contactBlock {
    height: auto;
-   padding: 100px 0;
+   padding: 60px 0;
    background-color: var(--second-bg-color);
 
    .container {
@@ -16,8 +16,25 @@
          display: flex;
 
          .contactForm {
+            position: relative;
             @include display(flex, $align-items: center, $f-der: column);
             width: 100%;
+
+            .notificationEmail {
+               color: #d9342c;
+               position: absolute;
+               top: 50px;
+               right: 1px;
+               font-size: 13px;
+            }
+
+            .notificationName {
+               color: #d9342c;
+               position: absolute;
+               top: 120px;
+               right: 1px;
+               font-size: 13px;
+            }
 
             input, textarea {
                width: 100%;

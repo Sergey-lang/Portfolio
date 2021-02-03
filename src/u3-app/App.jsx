@@ -11,18 +11,17 @@ import {ScrollToUp} from '../u0-common/u0.2-components/ArrowUp/ScrollToUp'
 
 import './App.css'
 
-
-const params = {
-   particles: {
-      number: {
-         value: 80,
-         density: {
-            enable: true,
-            value_area: 800,
-         }
-      },
-   },
-}
+// const params = {
+//    particles: {
+//       number: {
+//          value: 80,
+//          density: {
+//             enable: true,
+//             value_area: 800,
+//          }
+//       },
+//    },
+// }
 
 function App() {
 
@@ -30,7 +29,6 @@ function App() {
        <div className="App">
           <ScrollToUp/>
           <div className='mainBg'>
-             <Particles className='particles' params={params}/>
              <Header/>
              <Main/>
           </div>

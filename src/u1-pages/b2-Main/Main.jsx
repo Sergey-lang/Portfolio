@@ -7,8 +7,8 @@ import s from './Main.module.scss'
 export const Main = () => {
 
    return (
-       <section className={s.mainBlock} id='main'>
-          <article className={s.container}>
+       <div className={s.mainBlock} id='main'>
+          <dive className={s.container}>
              <Fade clear>
                 <div className={s.greeting}>
                 <span className={s.profession}>
@@ -22,7 +22,7 @@ export const Main = () => {
                       Welcome to my World.</h1>
                 </div>
              </Fade>
-          </article>
-       </section>
+          </dive>
+       </div>
    )
 }

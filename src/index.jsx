@@ -4,8 +4,6 @@ import './index.css'
 import App from './u3-app/App'
 
 ReactDOM.render(
-    <React.StrictMode>
-       <App/>
-    </React.StrictMode>,
+    <App/>,
     document.getElementById('root')
 )
