@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46b17ff90c4c2979724d4de4c4f6fd0e",
+    "revision": "18062f18bdd6f140f4a86558a5d1e049",
     "url": "/My_portfolio/index.html"
   },
   {
-    "revision": "3670db009bdead29d106",
-    "url": "/My_portfolio/static/css/main.455e0661.chunk.css"
+    "revision": "fc08b4e9bfd07fce2e04",
+    "url": "/My_portfolio/static/css/main.7a06c524.chunk.css"
   },
   {
-    "revision": "1f0ffadc5b9193eefc1b",
-    "url": "/My_portfolio/static/js/2.a36fc69d.chunk.js"
+    "revision": "50c4252e9028c078d943",
+    "url": "/My_portfolio/static/js/2.81c8dbb2.chunk.js"
   },
   {
     "revision": "90302810bebdd0a23ab725fa85eb1ba2",
-    "url": "/My_portfolio/static/js/2.a36fc69d.chunk.js.LICENSE.txt"
+    "url": "/My_portfolio/static/js/2.81c8dbb2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3670db009bdead29d106",
-    "url": "/My_portfolio/static/js/main.9f2227bb.chunk.js"
+    "revision": "fc08b4e9bfd07fce2e04",
+    "url": "/My_portfolio/static/js/main.86d216dd.chunk.js"
   },
   {
     "revision": "a865e1d0b6f43199bd26",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_portfolio/static/media/Pizza-shop.41805bbb.jpg"
   },
   {
-    "revision": "aa5d0c3ebca9515d40e4432a3c131d70",
-    "url": "/My_portfolio/static/media/Social.aa5d0c3e.jpg"
+    "revision": "4766965c73c40257c5b688ad91fdd831",
+    "url": "/My_portfolio/static/media/Social.4766965c.jpg"
   },
   {
     "revision": "7e95140edf71b50628998ffe02f524c3",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03b8a63c20f00a2d9909c2104660fa79",
     "url": "/My_portfolio/static/media/icons8-vkontakte.03b8a63c.svg"
+  },
+  {
+    "revision": "677ee931a1f6500786e8f2e296a31769",
+    "url": "/My_portfolio/static/media/learning.677ee931.jpg"
   },
   {
     "revision": "cd9cc5045c1518ed9aa73c8d2ba9a8b9",
