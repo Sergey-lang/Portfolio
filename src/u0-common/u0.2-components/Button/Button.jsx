@@ -4,7 +4,7 @@ import s from './Button.module.scss'
 import {Link} from 'react-scroll'
 
 export const Button = (
-    {className, name, newStyle, button,children, ...props}
+    {className, name, newStyle, button,children, disabled, ...props}
 ) => {
    const finalClassName = newStyle ? `${className} ${s.defaultBtn}` : `${s.buttonWrapper} ${className}`
    return (
@@ -18,7 +18,7 @@ export const Button = (
                     offset={-71}
                     duration={500}
               >{name}</Link>
-              : <button type={'submit'} className={finalClassName}>
+              : <button type={'submit'} className={finalClassName} disabled={disabled}>
                  <span>{children}</span>
               </button>
           }

@@ -1,33 +1,42 @@
 import React from 'react'
 import {Title} from '../../u0-common/u0.2-components/Title/Title'
-
-import s from './Contact.module.scss'
 import Fade from 'react-reveal/Fade'
 import {Button} from '../../u0-common/u0.2-components/Button/Button';
 import axios from 'axios';
 import {useForm} from 'react-hook-form';
 
+import s from './Contact.module.scss'
+
 export const Contact = React.memo(() => {
 
-    let[notification, setNotification] = React.useState(false)
+    let [notification, setNotification] = React.useState({flag: false, message: ''})
 
-    const { register, handleSubmit, errors, setError, reset } = useForm();
+    const {register, handleSubmit, errors, setError, reset} = useForm();
 
     const onSubmit = async (data, e) => {
+
         e.target.reset()
-        const res = await axios.post('https://floating-sands-77642.herokuapp.com/sendPost', data)
         try {
-            console.log('Massage send!')
+            const res = await axios.post('https://floating-sands-77642.herokuapp.com/sendPost', data)
+            setNotification({flag: true, message: 'The message was sent successfully. Thanks!'})
+            console.log('11')
+            setTimeout(() => {
+                setNotification({flag: false, message: ''})
+            }, 5000)
         } catch (err) {
-            console.log('There is error');
             setError('username', 'validate');
+            setNotification({flag: true, message: 'Something went wrong:(The message was not sent'})
+            setTimeout(() => {
+                setNotification({flag: false, message: ''})
+            }, 5000)
         }
     };
 
-    console.log(errors);
-
     return (
         <div className={s.contactBlock}>
+            <div className={s.messageSuccess} style={{opacity: notification.flag ? '1' : ''}}>
+                <span>{notification.message}</span>
+            </div>
             <div className={s.container} id='contact'>
                 <Fade clear>
                     <Title title={'Contact'}
@@ -50,16 +59,19 @@ export const Contact = React.memo(() => {
                             <input name="name"
                                    type="text"
                                    placeholder={'Name'}
-                                   ref={register({ required: true,
-                                       validate: value => value.length >=2
+                                   ref={register({
+                                       required: true,
+                                       validate: value => value.length >= 2
                                    })}/>
-                            {errors.name && <span className={s.notificationName}>Your last name is less than 2 characters</span>}
+                            {errors.name &&
+                            <span className={s.notificationName}>Your last name is less than 2 characters</span>}
                             <textarea name="message"
                                       placeholder={'Message'}
                                       ref={register}/>
                             <Button type="submit"
                                     newStyle
                                     button
+                                    disabled={!!notification.flag}
                                     className={s.contactBtn}
                             >Send message</Button>
                         </form>
