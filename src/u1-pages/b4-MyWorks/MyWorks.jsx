@@ -60,9 +60,9 @@ export const MyWorks = () => {
                           }
                     />
                     <Work style={cardPacks}
-                          link={'https://sergey-lang.github.io/Friday-2021/'}
-                          repLink={'https://github.com/Sergey-lang/Friday-2021'}
-                          projectName={'Study cards...'}
+                          link={'https://sergey-lang.github.io/Card-Learning-app/'}
+                          repLink={'https://github.com/Sergey-lang/Card-Learning-app'}
+                          projectName={'Card learning App'}
                           description={
                               'This project in progress. Will be added users page, video loading and images for cards, also chat between users.'
                           }
