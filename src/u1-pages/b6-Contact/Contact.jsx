@@ -1,8 +1,8 @@
 import React from 'react'
+import axios from 'axios';
 import {Title} from '../../u0-common/u0.2-components/Title/Title'
 import Fade from 'react-reveal/Fade'
 import {Button} from '../../u0-common/u0.2-components/Button/Button';
-import axios from 'axios';
 import {useForm} from 'react-hook-form';
 
 import s from './Contact.module.scss'
@@ -11,15 +11,14 @@ export const Contact = React.memo(() => {
 
     let [notification, setNotification] = React.useState({flag: false, message: ''})
 
-    const {register, handleSubmit, errors, setError, reset} = useForm();
+    const {register, handleSubmit, errors, setError} = useForm();
 
     const onSubmit = async (data, e) => {
 
         e.target.reset()
         try {
-            const res = await axios.post('https://floating-sands-77642.herokuapp.com/sendPost', data)
+            await axios.post('https://floating-sands-77642.herokuapp.com/sendPost', data)
             setNotification({flag: true, message: 'The message was sent successfully. Thanks!'})
-            console.log('11')
             setTimeout(() => {
                 setNotification({flag: false, message: ''})
             }, 5000)

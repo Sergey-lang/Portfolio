@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Fade from 'react-reveal/Fade'
 import {Skill} from './Skill/Skill'
 import {Title} from '../../u0-common/u0.2-components/Title/Title'
 
@@ -14,45 +14,47 @@ import s from './Skills.module.scss'
 
 export const Skills = () => {
 
-   return (
-       <div className={s.skillsBlock}>
-          <div className={s.container} id='skills'>
-             <Title title={'Skills'}
-                    titleDescription={'I use the following technologies in my work.'}
-             />
-             <div className={s.skills}>
-                <Skill
-                    icon={react}
-                    title={'React'}
-                    discription={'JavaScript library for building user interfaces or UI components.'}
+    return (
+        <div className={s.skillsBlock}>
+            <div className={s.container} id='skills'>
+                <Title title={'Skills'}
+                       titleDescription={'I use the following technologies in my work.'}
                 />
-                <Skill
-                    icon={redux}
-                    title={'Redux'}
-                    discription={'JavaScript library for managing application state.'}
-                />
-                <Skill
-                    icon={typescript}
-                    title={'TypeScript'}
-                    discription={'Strict syntactical superset of JavaScript and adds optional static typing to the language'}
-                />
-                <Skill
-                    icon={material}
-                    title={'Material UI'}
-                    discription={'One of the most popular react component libraries!'}
-                />
-                <Skill
-                    icon={js}
-                    title={'Java Script'}
-                    discription={'Programming language that conforms to the ECMAScript specification.'}
-                />
-                <Skill
-                    icon={story}
-                    title={'Story Book'}
-                    discription={'Tool for UI development!'}
-                />
-             </div>
-          </div>
-       </div>
-   )
+                <Fade left>
+                    <div className={s.skills}>
+                        <Skill
+                            icon={react}
+                            title={'React'}
+                            discription={'JavaScript library for building user interfaces or UI components.'}
+                        />
+                        <Skill
+                            icon={redux}
+                            title={'Redux'}
+                            discription={'JavaScript library for managing application state.'}
+                        />
+                        <Skill
+                            icon={typescript}
+                            title={'TypeScript'}
+                            discription={'Strict syntactical superset of JavaScript and adds optional static typing to the language'}
+                        />
+                        <Skill
+                            icon={material}
+                            title={'Material UI'}
+                            discription={'One of the most popular react component libraries!'}
+                        />
+                        <Skill
+                            icon={js}
+                            title={'Java Script'}
+                            discription={'Programming language that conforms to the ECMAScript specification.'}
+                        />
+                        <Skill
+                            icon={story}
+                            title={'Story Book'}
+                            discription={'Tool for UI development!'}
+                        />
+                    </div>
+                </Fade>
+            </div>
+        </div>
+    )
 }

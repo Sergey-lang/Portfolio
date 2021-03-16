@@ -3,22 +3,8 @@
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   background-position-y: 0px;
-   background-position-x: 199px;
    z-index: -999;
    background-attachment:fixed;
-}
-
-.mainBg:before{
-   content: '';
-   width: 30%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   bottom: 0;
-   right: 0;
-   z-index: -999;
-   background-color: black;
 }
 
 .particles {
@@ -30,20 +16,6 @@
    opacity: 0.4;
 }
 
-.mainBg:after {
-   display: none;
-   background: #000;
-   z-index: -1;
-   position: absolute;
-   content: "";
-   height: 100%;
-   width: 100%;
-   opacity: .5;
-   left: 0;
-   top: 0;
-   background-size: cover;
-}
-
 @media (max-width: 1199px) {
    .contactBtn {
       max-width: 70%;
@@ -51,12 +23,6 @@
 
    .mainBg:after {
       display: block;
-   }
-}
-
-@media (max-width: 982px) {
-   .mainBg {
-      background-position-x: 122px;
    }
 }
 

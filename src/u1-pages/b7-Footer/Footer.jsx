@@ -17,21 +17,21 @@ export const Footer = () => {
                    <ul className={s.socialShare}>
                       <Fade bottom>
                          <li>
-                            <a href="https://vk.com/19sergey_k" target="_blank">
+                            <a href="https://vk.com/19sergey_k" target="_blank" rel="noopener noreferrer">
                                <img src={socialVk} alt=""/>
                             </a>
                          </li>
                       </Fade>
                       <Fade bottom>
                          <li>
-                            <a href="https://www.instagram.com/?hl=ru" target="_blank">
+                            <a href="https://www.instagram.com/?hl=ru" target="_blank" rel="noopener noreferrer">
                                <img src={socialInst} alt=""/>
                             </a>
                          </li>
                       </Fade>
                       <Fade bottom>
                          <li>
-                            <a href="https://www.linkedin.com/in/sergey-kuharyonok-702b111b7/" target="_blank">
+                            <a href="https://www.linkedin.com/in/sergey-kuharyonok-702b111b7/" target="_blank" rel="noopener noreferrer">
                                <img src={socialIn} alt=""/>
                             </a>
                          </li>

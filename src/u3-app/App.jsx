@@ -1,5 +1,4 @@
 import React from 'react'
-import Particles from 'react-particles-js'
 import {Header} from '../u1-pages/b1-Header/Header'
 import {Main} from '../u1-pages/b2-Main/Main'
 import {Skills} from '../u1-pages/b3-Skills/Skills'
@@ -11,18 +10,6 @@ import {ScrollToUp} from '../u0-common/u0.2-components/ArrowUp/ScrollToUp'
 
 import './App.css'
 
-// const params = {
-//    particles: {
-//       number: {
-//          value: 80,
-//          density: {
-//             enable: true,
-//             value_area: 800,
-//          }
-//       },
-//    },
-// }
-
 function App() {
 
    return (
@@ -32,13 +19,13 @@ function App() {
              <Header/>
              <Main/>
           </div>
-          <main>
+          <div>
              <Skills/>
              <MyWorks/>
              <OfferWork/>
              <Contact/>
              <Footer/>
-          </main>
+          </div>
        </div>
    )
 }

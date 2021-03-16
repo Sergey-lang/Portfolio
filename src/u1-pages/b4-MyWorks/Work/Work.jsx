@@ -9,14 +9,14 @@ export const Work = ({projectName, description, link, repLink, ...props}) => {
         <article className={s.workItem}>
             <div className={s.workBlock}>
                 <div className={s.projectImg} style={props.style}>
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                         <Button className={s.projectBtn} button link={'https://vk.com/19sergey_k'}>Watch</Button>
                     </a>
                 </div>
                 <div className={s.description}>
                     <h3>{projectName}</h3>
                     <p>{description}</p>
-                    <a href={repLink} target="_blank">GitHub</a>
+                    <a href={repLink} target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
         </article>
