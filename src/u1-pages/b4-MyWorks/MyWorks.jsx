@@ -51,11 +51,11 @@ export const MyWorks = () => {
                           }
                     />
                     <Work style={oneWork}
-                          link={'https://sergey-lang.github.io/Simple-React-HW/#/pre-junior'}
-                          repLink={'https://github.com/Sergey-lang/Simple-React-HW'}
-                          projectName={'Components'}
+                          link={'https://notes-react07-app.herokuapp.com/'}
+                          repLink={'https://github.com/Sergey-lang/Notes-react-app'}
+                          projectName={'Notes app'}
                           description={
-                              'Simple components which I can take for my project and upgrade their.'
+                              'App for notes, which help you remember all your plans.'
                           }
                     />
                 </div>
