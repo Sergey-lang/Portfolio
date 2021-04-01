@@ -58,6 +58,14 @@ export const MyWorks = () => {
                               'App for notes, which help you remember all your plans.'
                           }
                     />
+                    <Work style={oneWork}
+                          link={'https://sergey-lang.github.io/React-graphQl-pokemon/'}
+                          repLink={'https://github.com/Sergey-lang/React-graphQl-pokemon'}
+                          projectName={'Pokemon List'}
+                          description={
+                              'Pokemon List. Used graphQl and apollo client'
+                          }
+                    />
                 </div>
             </div>
         </div>

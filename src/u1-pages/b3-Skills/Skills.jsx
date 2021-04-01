@@ -9,6 +9,9 @@ import js from '../../u0-common/u0.1-assets/images/skills/icons8-javascript.svg'
 import redux from '../../u0-common/u0.1-assets/images/skills/icons8-redux.svg'
 import material from '../../u0-common/u0.1-assets/images/skills/icons8-material-ui.svg'
 import story from '../../u0-common/u0.1-assets/images/skills/story.svg'
+import node from '../../u0-common/u0.1-assets/images/skills/icons8-nodejs.svg'
+import ql from '../../u0-common/u0.1-assets/images/skills/graphql.svg'
+import db from '../../u0-common/u0.1-assets/images/skills/mongodb.svg'
 
 import s from './Skills.module.scss'
 
@@ -51,6 +54,21 @@ export const Skills = () => {
                             icon={story}
                             title={'Story Book'}
                             discription={'Tool for UI development!'}
+                        />
+                        <Skill
+                            icon={node}
+                            title={'NodeJS'}
+                            discription={'Back-end JavaScript runtime environment '}
+                        />
+                        <Skill
+                            icon={ql}
+                            title={'GraphQl'}
+                            discription={'Query language for your API, and a server-side runtime for executing queries by using a type system you define for your data.'}
+                        />
+                        <Skill
+                            icon={db}
+                            title={'MongoDB'}
+                            discription={'Document database, which means it stores data in JSON-like documents'}
                         />
                     </div>
                 </Fade>
